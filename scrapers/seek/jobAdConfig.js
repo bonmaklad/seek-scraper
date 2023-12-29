@@ -6,5 +6,6 @@ const jobAdConfig = {
   JOBLOCATION_PERTH: "All-Perth-WA",
   JOBLOCATION_MELBOURNE: "All-Melbourne-VIC",
   JOBLOCATION_SYDNEY: "All-Sydney-NSW",
+  JOBLOCATION_WHANGANUI: "Whanganui",
 };
 module.exports = jobAdConfig;
