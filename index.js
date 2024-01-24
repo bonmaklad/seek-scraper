@@ -56,7 +56,7 @@ async function sendEmail(toEmail, companyName, jobTitle) {
       to: toEmail,
       from: 'nelly@necta.nz',
       subject: `${jobTitle}`,
-      text: `Kia Ora ${companyName} Team!\n\nI am Nelly from Necta, an AI job listing board that integrates with your internal hiring process. We would love to list your job opportunity with us. We can offer you a three-month free trial with our AI job listing and talent acquisition service, valued at $900, for ${jobTitle} and any hiring needs you have in the next three months.\n\nWe know how busy you are, so feel free to reply "yes", and we will set up your account and post your listing on your behalf.\n\nKind regards,\nNelly at Necta`
+      text: `Kia Ora ${companyName} Team!\n\nI am Nelly from Necta, an AI job listing board that integrates with your internal hiring process. We would love to list your job opportunity with us. We can offer you a three-month free trial with our AI job listing and talent acquisition service, valued at $900, for ${jobTitle} and any hiring needs you have in the next three months.\n\nWe know how busy you are, so feel free to reply "yes", and we will set up your account and post your listing on your behalf.\n\nKind regards,\nNelly at Necta\nhttp://necta.nz`
   };
 
   try {
