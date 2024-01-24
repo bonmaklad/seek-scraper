@@ -2,4 +2,3 @@ node_modules/
 data-csv/*
 data-json/*
 .DS_Store
-.env
