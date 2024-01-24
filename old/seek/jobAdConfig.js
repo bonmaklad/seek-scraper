@@ -7,5 +7,7 @@ const jobAdConfig = {
   JOBLOCATION_MELBOURNE: "All-Melbourne-VIC",
   JOBLOCATION_SYDNEY: "All-Sydney-NSW",
   JOBLOCATION_WHANGANUI: "Whanganui",
+  JOBINDUSTRY_TECH: "jobs-in-information-communication-technology",
+  JOBDATE_1DAY: "daterange=1"
 };
 module.exports = jobAdConfig;

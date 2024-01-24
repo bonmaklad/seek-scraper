@@ -4,6 +4,8 @@ const jobInfoPerPageQuery = () => {
     res.setDate(res.getDate() - days);
     return res;
   }
+  const regex = /[\w.-]+@[\w.-]+\.\w+/;
+  const pElems = document.querySelectorAll('p');
 
   function formatDate(string) {
     let daysAgo = parseInt(string.split("d")[0]);
@@ -56,6 +58,7 @@ const jobInfoPerPageQuery = () => {
       description: "",
       link: "",
       listedOn: "",
+      email: null, // Adding email field
     };
 
     const title = titleElems[i] && titleElems[i].innerHTML;
@@ -67,9 +70,19 @@ const jobInfoPerPageQuery = () => {
     jobObject.link = titleElems[i] && titleElems[i].href;
     jobObject.listedOn =
       listingDateElems[i] && formatDate(listingDateElems[i].innerText);
+    
+    for (let pElem of pElems) {
+      const emailMatch = pElem.innerText.match(regex);
+      if (emailMatch) {
+        jobObject.email = emailMatch[0];
+        break; // Break after finding the first email
+      }
+    }
 
     jobsArr.push(jobObject);
   }
+
+
 
   return jobsArr;
 };

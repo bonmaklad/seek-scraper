@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
-const writeToJSON = require("../../helpers/writeToJSON");
-const writeToCsv = require("../../helpers/writeToCsv");
+const writeToJSON = require("../helpers/writeToJSON");
+const writeToCsv = require("../helpers/writeToCsv");
 const fs = require("fs");
 const scrapeJobListing = require("./scrapeJobListing");
 
@@ -29,7 +29,15 @@ async function seekJobAdData({ jobDataConfig, exportType }) {
         location,
       });
 
-      writeToJSON({
+      // writeToJSON({
+      //   jobsListingArr,
+      //   type,
+      //   city,
+      //   date,
+      // });
+      console.log(jobsListingArr);
+
+      writeToCsv({
         jobsListingArr,
         type,
         city,
