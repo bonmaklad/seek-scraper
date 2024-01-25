@@ -27,27 +27,36 @@ function isWithinLastThreeMonths(dateString) {
 }
 
 
-async function processJobsAndSendEmails(existingJobs) {
+async function processJobsAndSendEmails(newJobs, existingJobs) {
   const today = new Date().toISOString().split('T')[0];
   const emailLastSent = {}; // Object to keep track of when each email was last sent
 
   // Populate emailLastSent with the last sent dates from existingJobs
   for (const job of existingJobs) {
-      if (job.email && job.comms) {
-          emailLastSent[job.email] = job.comms;
-      }
+    if (job.email && job.comms) {
+      emailLastSent[job.email] = job.comms;
+    }
   }
 
+  // Process new jobs
+  for (let job of newJobs) {
+    // Check if we have sent an email to this address in the last three months
+    if (job.email && (!emailLastSent[job.email] || !isWithinLastThreeMonths(emailLastSent[job.email]))) {
+      await sendEmail(job.email, job.company, job.title);
+      job.comms = today;
+      emailLastSent[job.email] = today; // Update the last sent date
+    }
+  }
+
+  // Update existing jobs' comms field based on emailLastSent
   for (let job of existingJobs) {
-      // Check if we have sent an email to this address in the last three months
-      if (job.email && !job.comms && (!emailLastSent[job.email] || !isWithinLastThreeMonths(emailLastSent[job.email]))) {
-          await sendEmail(job.email, job.company, job.title);
-          job.comms = today;
-          emailLastSent[job.email] = today; // Update the last sent date
-      }
+    if (job.email && emailLastSent[job.email]) {
+      job.comms = emailLastSent[job.email];
+    }
   }
 
-  return existingJobs;
+  // Merge new jobs with existing jobs
+  return [...existingJobs, ...newJobs];
 }
 
 
@@ -56,11 +65,23 @@ async function sendEmail(toEmail, companyName, jobTitle) {
       to: toEmail,
       from: 'nelly@necta.nz',
       subject: `${jobTitle}`,
-      text: `Kia Ora ${companyName} Team!\n\nI am Nelly from Necta, an AI job listing board that integrates with your internal hiring process. We would love to list your job opportunity with us. We can offer you a three-month free trial with our AI job listing and talent acquisition service, valued at $900, for ${jobTitle} and any hiring needs you have in the next three months.\n\nWe know how busy you are, so feel free to reply "yes", and we will set up your account and post your listing on your behalf.\n\nKind regards,\nNelly at Necta\nhttp://necta.nz`
+      text: `Kia Ora ${companyName} Team! \n\n 
+      I am Nelly from Necta, a Kiwi-operated job listing platform.\n\n 
+      We understand that there's been a significant rise in the cost of job boards like Seek, Trade Me, and LinkedIn. 
+      In these challenging times, we're reaching out as Kiwis to help Kiwis reduce talent acquisition costs.\n\n 
+      We are excited to offer you a three-month free trial for unlimited job listings with our job listing board, valued at $900.\n\n
+      This is an opportunity to experience our service for ${jobTitle} and any other hiring needs you might have with no risk.\n\n
+      After the trial, should you choose to continue, our service is available at an affordable rate of $300 a month. 
+      For more details about our services and benefits, please visit our website at https://necta.nz.
+      To take advantage of this offer, simply reply "yes", and we will do the mahi, set up your account and post your jobs for you.\n\n
+      Looking forward to helping you streamline your hiring process.\n\n
+      Kind regards,\n
+      Nelly at Necta\n
+      http://necta.nz`
   };
 
   try {
-      await sgMail.send(message);
+      // await sgMail.send(message);
       console.log(`Email sent to ${toEmail}`);
   } catch (error) {
       console.error(`Error sending email to ${toEmail}:`, error);
@@ -234,13 +255,13 @@ async function saveJobsToCSV(jobsToAdd, filePath) {
   );
 
   // Process new jobs for sending emails and updating comms field
-  const processedNewJobs = await processJobsAndSendEmails(newJobs);
+  const processedNewJobs = await processJobsAndSendEmails(newJobs, existingJobs);
 
-  // Combine existing jobs with processed new jobs
-  const combinedJobs = [...existingJobs, ...processedNewJobs];
+  // // Combine existing jobs with processed new jobs
+  // const combinedJobs = [...existingJobs, ...processedNewJobs];
 
   // Write the combined jobs to the CSV, replacing the old file
-  await updateCSVwithComms(jobsCsvFilePath, combinedJobs);
+  await updateCSVwithComms(jobsCsvFilePath, processedNewJobs);
 
   console.log("Job scraping and email process completed.");
 })();
