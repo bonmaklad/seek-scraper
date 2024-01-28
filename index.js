@@ -4,6 +4,16 @@ const fastcsv = require("fast-csv");
 const path = require("path");
 const sgMail = require('@sendgrid/mail');
 require('dotenv').config();
+// const AWS = require('aws-sdk');
+
+// // Configure the AWS region (e.g., 'us-west-2') and credentials
+// AWS.config.update({
+//   region: 'ap-southeast-2',
+//   accessKeyId: 'AKIA3F42OVZVJFIUNTWJ',
+//   secretAccessKey: 'Q4UvEMJYSPYCKOKPtC6+JkkF4O3zANtRap8RTKD9'
+// });
+
+// const s3 = new AWS.S3();
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
