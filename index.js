@@ -18,9 +18,13 @@ async function updateCSVwithComms(filePath, updatedJobs) {
     .pipe(ws);
 }
 
+function parseDate(dateString) {
+  const [day, month, year] = dateString.split('/').map(num => parseInt(num, 10));
+  return new Date(year, month - 1, day);
+}
 
 function isWithinLastThreeMonths(dateString) {
-  const date = new Date(dateString);
+  const date = parseDate(dateString);
   const threeMonthsAgo = new Date();
   threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
   return date >= threeMonthsAgo;
@@ -28,37 +32,31 @@ function isWithinLastThreeMonths(dateString) {
 
 
 async function processJobsAndSendEmails(newJobs, existingJobs) {
-  const today = new Date().toISOString().split('T')[0];
-  const emailLastSent = {}; // Object to keep track of when each email was last sent
+  const today = new Date().toISOString().split('T')[0].split('-').reverse().join('/');
+  const emailLastSent = {};
 
-  // Populate emailLastSent with the last sent dates from existingJobs
   for (const job of existingJobs) {
     if (job.email && job.comms) {
       emailLastSent[job.email] = job.comms;
     }
   }
 
-  // Process new jobs
   for (let job of newJobs) {
-    // Check if we have sent an email to this address in the last three months
-    if (job.email && (!emailLastSent[job.email] || !isWithinLastThreeMonths(emailLastSent[job.email]))) {
+    if (job.email && !job.comms && (!emailLastSent[job.email] || !isWithinLastThreeMonths(emailLastSent[job.email]))) {
       await sendEmail(job.email, job.company, job.title);
       job.comms = today;
-      emailLastSent[job.email] = today; // Update the last sent date
+      emailLastSent[job.email] = today;
     }
   }
 
-  // Update existing jobs' comms field based on emailLastSent
   for (let job of existingJobs) {
     if (job.email && emailLastSent[job.email]) {
       job.comms = emailLastSent[job.email];
     }
   }
 
-  // Merge new jobs with existing jobs
   return [...existingJobs, ...newJobs];
 }
-
 
 async function sendEmail(toEmail, companyName, jobTitle) {
   const message = {
@@ -81,7 +79,7 @@ async function sendEmail(toEmail, companyName, jobTitle) {
   };
 
   try {
-      // await sgMail.send(message);
+      await sgMail.send(message);
       console.log(`Email sent to ${toEmail}`);
   } catch (error) {
       console.error(`Error sending email to ${toEmail}:`, error);
