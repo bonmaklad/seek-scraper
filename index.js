@@ -4,24 +4,19 @@ const fastcsv = require("fast-csv");
 const path = require("path");
 const sgMail = require('@sendgrid/mail');
 require('dotenv').config();
-// const AWS = require('aws-sdk');
-
-// // Configure the AWS region (e.g., 'us-west-2') and credentials
-// AWS.config.update({
-//   region: 'ap-southeast-2',
-//   accessKeyId: 'AKIA3F42OVZVJFIUNTWJ',
-//   secretAccessKey: 'Q4UvEMJYSPYCKOKPtC6+JkkF4O3zANtRap8RTKD9'
-// });
-
-// const s3 = new AWS.S3();
 
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-const baseURL = "https://www.seek.co.nz/jobs-in-information-communication-technology";
-const dateRange = "?daterange=3";
+const baseUrls = {
+  nz: "https://www.seek.co.nz/jobs-in-information-communication-technology",
+  au: "https://www.seek.com.au/jobs-in-information-communication-technology"
+};
+const dateRange = "?daterange=1";
+
+// const baseURL = "https://www.seek.co.nz/jobs-in-information-communication-technology";
+// const dateRange = "?daterange=3";
 
 async function updateCSVwithComms(filePath, updatedJobs) {
-  // Ensure 'w' flag is used to overwrite the file
   const ws = fs.createWriteStream(filePath, { flags: 'w', includeEndRowDelimiter: true });
   fastcsv
     .write(updatedJobs, { headers: true, includeEndRowDelimiter: true })
@@ -41,7 +36,7 @@ function isWithinLastThreeMonths(dateString) {
 }
 
 
-async function processJobsAndSendEmails(newJobs, existingJobs) {
+async function processJobsAndSendEmails(newJobs, existingJobs, domain) {
   const today = new Date().toISOString().split('T')[0].split('-').reverse().join('/');
   const emailLastSent = {};
 
@@ -53,7 +48,7 @@ async function processJobsAndSendEmails(newJobs, existingJobs) {
 
   for (let job of newJobs) {
     if (job.email && !job.comms && (!emailLastSent[job.email] || !isWithinLastThreeMonths(emailLastSent[job.email]))) {
-      await sendEmail(job.email, job.company, job.title);
+      await sendEmail(job.email, job.company, job.title, domain);
       job.comms = today;
       emailLastSent[job.email] = today;
     }
@@ -68,8 +63,8 @@ async function processJobsAndSendEmails(newJobs, existingJobs) {
   return [...existingJobs, ...newJobs];
 }
 
-async function sendEmail(toEmail, companyName, jobTitle) {
-  const message = {
+async function sendEmail(toEmail, companyName, jobTitle, domain) {
+  const messageNz = {
       to: toEmail,
       from: 'nelly@necta.nz',
       subject: `${jobTitle}`,
@@ -88,30 +83,53 @@ async function sendEmail(toEmail, companyName, jobTitle) {
       http://necta.nz`
   };
 
+  const messageAu = {
+    to: toEmail,
+    from: 'nelly@necta.nz',
+    subject: `${jobTitle}`,
+    text: `Kia Ora ${companyName} Team! \n\n 
+    I am Nelly from Necta, an AI job listing platform.\n\n 
+    We understand that there's been a significant rise in the cost of job boards like Seek and LinkedIn. 
+    In these challenging times, we're reaching out to reduce talent acquisition costs and time to hire while removing unconcious bias.\n\n 
+    We are excited to say that Necta is getting ready to launch and we are looking for 100 innovators to give a six-month free trial to. This allows unlimited job listings with our job listing board, valued at $1800.\n\n
+    This is an opportunity to experience our service for ${jobTitle} and any other hiring needs you might have with no risk.\n\n
+    After the trial, should you choose to continue, our service is available at an affordable rate of $300 a month (not per listing). 
+    For more details about our services and benefits, please visit our website at https://necta.nz.
+    To take advantage of this offer, simply reply "yes", and we will do the work, set up your account and post your jobs for you and market them across social media.\n\n
+    Looking forward to helping you streamline your hiring process.\n\n
+    Kind regards,\n
+    Nelly at Necta\n
+    http://necta.nz`
+};
+
+
+  const message = domain === 'nz' ? messageNz : messageAu;
+
   try {
-      await sgMail.send(message);
-      console.log(`Email sent to ${toEmail}`);
+    await sgMail.send(message);
+    console.log(`Email sent to ${toEmail}`);
   } catch (error) {
-      console.error(`Error sending email to ${toEmail}:`, error);
+    console.error(`Error sending email to ${toEmail}:`, error);
   }
 }
 
 
-async function scrapeAllJobs() {
+async function scrapeAllJobs(domain) {
   let currentPage = 1;
   let allJobs = [];
   let hasMorePages = true;
+  const baseURL = baseUrls[domain];
 
   while (hasMorePages) {
-      const pageURL = `${baseURL}${dateRange}&page=${currentPage}`;
-      const jobsOnPage = await scrapeJobPage(pageURL);
+    const pageURL = `${baseURL}${dateRange}&page=${currentPage}`;
+    const jobsOnPage = await scrapeJobPage(pageURL);
 
-      if (jobsOnPage.length === 0) {
-          hasMorePages = false;
-      } else {
-          allJobs = allJobs.concat(jobsOnPage);
-          currentPage++;
-      }
+    if (jobsOnPage.length === 0) {
+      hasMorePages = false;
+    } else {
+      allJobs = allJobs.concat(jobsOnPage);
+      currentPage++;
+    }
   }
 
   return allJobs;
@@ -240,13 +258,16 @@ async function saveJobsToCSV(jobsToAdd, filePath) {
 }
 
 (async () => {
-  const jobsCsvFilePath = path.join(__dirname, "jobs.csv");
-  
-  // Read existing jobs from CSV
-  const existingJobs = await readExistingJobsFromCSV(jobsCsvFilePath);
-  
-  // Scrape new jobs
-  const scrapedJobs = await scrapeAllJobs();
+  const csvFilePaths = {
+    nz: path.join(__dirname, "jobs.csv"),
+    au: path.join(__dirname, "jobsA.csv")
+  };
+
+  for (const domain of ['nz', 'au']) {
+    const jobsCsvFilePath = csvFilePaths[domain];
+    
+    const existingJobs = await readExistingJobsFromCSV(jobsCsvFilePath);
+    const scrapedJobs = await scrapeAllJobs(domain);
 
   // Get emails for scraped jobs
   for (let job of scrapedJobs) {
@@ -261,7 +282,7 @@ async function saveJobsToCSV(jobsToAdd, filePath) {
       existingJob.title === scrapedJob.title && existingJob.company === scrapedJob.company
     )
   );
-
+  // console.log(existingJobs)
   // Process new jobs for sending emails and updating comms field
   const processedNewJobs = await processJobsAndSendEmails(newJobs, existingJobs);
 
@@ -269,7 +290,10 @@ async function saveJobsToCSV(jobsToAdd, filePath) {
   // const combinedJobs = [...existingJobs, ...processedNewJobs];
 
   // Write the combined jobs to the CSV, replacing the old file
+ 
   await updateCSVwithComms(jobsCsvFilePath, processedNewJobs);
 
-  console.log("Job scraping and email process completed.");
+}
+
+console.log("Job scraping and email process completed.");
 })();
