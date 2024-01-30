@@ -64,6 +64,12 @@ async function processJobsAndSendEmails(newJobs, existingJobs, domain) {
 }
 
 async function sendEmail(toEmail, companyName, jobTitle, domain) {
+  const bannedDomains = ["@thedrivegroup.com.au", "@parrismills.co.nz", "@examplebanned.com"];
+  const isBanned = bannedDomains.some(bannedDomain => toEmail.endsWith(bannedDomain));
+  if (isBanned) {
+    console.log(`Email to ${toEmail} not sent: Domain is banned.`);
+    return;
+  }
   const messageNz = {
       to: toEmail,
       from: 'nelly@necta.nz',
@@ -75,38 +81,37 @@ async function sendEmail(toEmail, companyName, jobTitle, domain) {
       We are excited to offer you a three-month free trial for unlimited job listings with our job listing board, valued at $900.\n\n
       This is an opportunity to experience our service for ${jobTitle} and any other hiring needs you might have with no risk.\n\n
       After the trial, should you choose to continue, our service is available at an affordable rate of $300 a month. 
-      For more details about our services and benefits, please visit our website at https://necta.nz.
+      For more details about our services and benefits, please visit ask us for a no obligation demo.
       To take advantage of this offer, simply reply "yes", and we will do the mahi, set up your account and post your jobs for you.\n\n
       Looking forward to helping you streamline your hiring process.\n\n
       Kind regards,\n
-      Nelly at Necta\n
-      http://necta.nz`
+      Nelly at Necta\n`
   };
 
   const messageAu = {
     to: toEmail,
     from: 'nelly@necta.nz',
     subject: `${jobTitle}`,
-    text: `Kia Ora ${companyName} Team! \n\n 
+    text: `Morning ${companyName} Team! \n\n 
     I am Nelly from Necta, an AI job listing platform.\n\n 
     We understand that there's been a significant rise in the cost of job boards like Seek and LinkedIn. 
     In these challenging times, we're reaching out to reduce talent acquisition costs and time to hire while removing unconcious bias.\n\n 
     We are excited to say that Necta is getting ready to launch and we are looking for 100 innovators to give a six-month free trial to. This allows unlimited job listings with our job listing board, valued at $1800.\n\n
     This is an opportunity to experience our service for ${jobTitle} and any other hiring needs you might have with no risk.\n\n
     After the trial, should you choose to continue, our service is available at an affordable rate of $300 a month (not per listing). 
-    For more details about our services and benefits, please visit our website at https://necta.nz.
+    For more details about our services and benefits, please visit our website or feel free to ask any questions.
     To take advantage of this offer, simply reply "yes", and we will do the work, set up your account and post your jobs for you and market them across social media.\n\n
     Looking forward to helping you streamline your hiring process.\n\n
     Kind regards,\n
-    Nelly at Necta\n
-    http://necta.nz`
+    Nelly at Necta\n`
+    
 };
 
 
   const message = domain === 'nz' ? messageNz : messageAu;
 
   try {
-    await sgMail.send(message);
+    // await sgMail.send(message);
     console.log(`Email sent to ${toEmail}`);
   } catch (error) {
     console.error(`Error sending email to ${toEmail}:`, error);
@@ -191,16 +196,45 @@ async function scrapeJobPage(url) {
       const companyElems = document.querySelectorAll('a[data-automation="jobCompany"]');
       const shortDescriptionElems = document.querySelectorAll('span[data-automation="jobShortDescription"]');
       const listingDateElems = document.querySelectorAll('span[data-automation="jobListingDate"]');
-      const jobsArr = [];
+      const locationElements = document.querySelectorAll('a[data-automation="jobLocation"]');
+      const salaryElems = document.querySelectorAll('span[data-automation="jobSalary"]');
+      let locationCity = '';
+      let locationRegion = '';
 
+      if (locationElements.length >= 2) {
+          locationCity = locationElements[0].innerText;   // First item for city
+          locationRegion = locationElements[1].innerText; // Second item for region
+      } else if (locationElements.length === 1) {
+          locationCity = locationElements[0].innerText;   // Only one item, assuming it's the city
+          // locationRegion remains an empty string as there's no second item
+      }
+      const jobsArr = [];
       for (let i = 0; i < titleElems.length; i++) {
+          let locationCity = '';
+          let locationRegion = '';
+    
+          if (locationElements.length >= 2) {
+              locationCity = locationElements[0].innerText;   // First item for city
+              locationRegion = locationElements[1].innerText; // Second item for region
+          } else if (locationElements.length === 1) {
+              locationCity = locationElements[0].innerText;   // Only one item, assuming it's the city
+              // locationRegion remains an empty string as there's no second item
+          }
+          let salary = '';
+          if (salaryElems[i]) {
+              salary = salaryElems[i].innerText.trim();
+          }
+    
           let jobObject = {
               title: titleElems[i] ? titleElems[i].innerText : "",
               company: companyElems[i] ? companyElems[i].innerText : "",
               description: shortDescriptionElems[i] ? shortDescriptionElems[i].innerText : "",
               link: titleElems[i] ? titleElems[i].href : "",
               listedOn: listingDateElems[i] ? formatDate(listingDateElems[i].innerText) : "",
-              email: null
+              email: null,
+              city: locationCity,    // Adding city
+              region: locationRegion, 
+              salary: salary  // Adding region
           };
 
           for (let pElem of pElems) {
