@@ -111,7 +111,7 @@ async function sendEmail(toEmail, companyName, jobTitle, domain) {
   const message = domain === 'nz' ? messageNz : messageAu;
 
   try {
-    // await sgMail.send(message);
+    await sgMail.send(message);
     console.log(`Email sent to ${toEmail}`);
   } catch (error) {
     console.error(`Error sending email to ${toEmail}:`, error);
