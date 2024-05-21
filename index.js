@@ -8,8 +8,8 @@ require('dotenv').config();
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 const todayDate = new Date().toISOString().split('T')[0];
 const baseUrls = {
-  nz: "https://www.seek.co.nz/jobs",
-  au: "https://www.seek.com.au/jobs"
+  nz: "https://www.seek.co.nz/jobs-in-information-communication-technology",
+  au: "https://www.seek.com.au/jobs-in-information-communication-technology"
 };
 const dateRange = 1; // Adjust this as necessary
 const salaryRange = '80000-';
@@ -53,6 +53,25 @@ function isWithinLastThreeMonths(dateString) {
   return date >= threeMonthsAgo;
 }
 
+async function processJobs(newJobs, existingJobs, domain) {
+  const today = new Date().toISOString().split('T')[0].split('-').reverse().join('/');
+  const emailLastSent = {};
+
+  for (const job of newJobs) {
+    if (job.email && job.comms) {
+      emailLastSent[job.email] = job.comms;
+    }
+  }
+
+
+  for (let job of newJobs) {
+    if (job.email && emailLastSent[job.email]) {
+      job.comms = emailLastSent[job.email];
+    }
+  }
+
+  return [...newJobs];
+}
 
 async function processJobsAndSendEmails(newJobs, existingJobs, domain) {
   const today = new Date().toISOString().split('T')[0].split('-').reverse().join('/');
@@ -64,13 +83,13 @@ async function processJobsAndSendEmails(newJobs, existingJobs, domain) {
     }
   }
 
-  // for (let job of newJobs) {
-  //   if (job.email && !job.comms && (!emailLastSent[job.email] || !isWithinLastThreeMonths(emailLastSent[job.email]))) {
-  //     await sendEmail(job.email, job.company, job.title, domain);
-  //     job.comms = today;
-  //     emailLastSent[job.email] = today;
-  //   }
-  // }
+  for (let job of newJobs) {
+    if (job.email && !job.comms && (!emailLastSent[job.email] || !isWithinLastThreeMonths(emailLastSent[job.email]))) {
+      // await sendEmail(job.email, job.company, job.title, domain);
+      job.comms = today;
+      emailLastSent[job.email] = today;
+    }
+  }
 
   for (let job of existingJobs) {
     if (job.email && emailLastSent[job.email]) {
@@ -354,15 +373,15 @@ async function saveJobsToCSV(jobsToAdd, filePath) {
       existingJob.title === scrapedJob.title && existingJob.company === scrapedJob.company
     )
   );
-  // console.log(existingJobs)
   // Process new jobs for sending emails and updating comms field
   const processedNewJobs = await processJobsAndSendEmails(newJobs, existingJobs);
-
+  const processedNewJobsOnly = await processJobs(newJobs);
   // // Combine existing jobs with processed new jobs
   // const combinedJobs = [...existingJobs, ...processedNewJobs];
 
   // Write the combined jobs to the CSV, replacing the old file
-  const jobsWithContact = processedNewJobs.filter(job => job.email || job.phone);
+  const jobsWithContact = processedNewJobsOnly.filter(job => job.email || job.phone);
+  console.log("new jobs with contact only", jobsWithContact)
   await updateCSVwithComms(jobsCsvFilePath, processedNewJobs);
   await updateCSVwithComms(newFilePath, jobsWithContact);
 
