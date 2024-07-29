@@ -11,7 +11,7 @@ const baseUrls = {
   nz: "https://www.seek.co.nz/jobs-in-information-communication-technology",
   au: "https://www.seek.com.au/jobs-in-information-communication-technology"
 };
-const dateRange = 1; // Adjust this as necessary
+const dateRange = 3; // Adjust this as necessary
 const salaryRange = '80000-';
 const salaryType = 'annual';
 
@@ -381,7 +381,7 @@ async function saveJobsToCSV(jobsToAdd, filePath) {
 
   // Write the combined jobs to the CSV, replacing the old file
   const jobsWithContact = processedNewJobsOnly.filter(job => job.email || job.phone);
-  console.log("new jobs with contact only", jobsWithContact)
+  // console.log("new jobs with contact only", jobsWithContact)
   await updateCSVwithComms(jobsCsvFilePath, processedNewJobs);
   await updateCSVwithComms(newFilePath, jobsWithContact);
 
