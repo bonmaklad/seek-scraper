@@ -11,7 +11,7 @@ const baseUrls = {
   nz: "https://www.seek.co.nz/jobs-in-information-communication-technology",
   au: "https://www.seek.com.au/jobs-in-information-communication-technology"
 };
-const dateRange = 3; // Adjust this as necessary
+const dateRange = 1; // Adjust this as necessary
 const salaryRange = '80000-';
 const salaryType = 'annual';
 
