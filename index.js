@@ -15,29 +15,24 @@ const dateRange = 1; // Adjust this as necessary
 const salaryRange = '80000-';
 const salaryType = 'annual';
 
-// const baseURL = "https://www.seek.co.nz/jobs-in-information-communication-technology";
-// const dateRange = "?daterange=3";
-
-
 function constructUrl(baseURL, page, dateRange, salaryRange, salaryType) {
   let url = `${baseURL}?page=${page}`;
   if (dateRange) {
-      url += `&daterange=${dateRange}`;
+    url += `&daterange=${dateRange}`;
   }
   if (salaryRange) {
-      url += `&salaryrange=${salaryRange}`;
+    url += `&salaryrange=${salaryRange}`;
   }
   if (salaryType) {
-      url += `&salarytype=${salaryType}`;
+    url += `&salarytype=${salaryType}`;
   }
   return url;
 }
 
-
 async function updateCSVwithComms(filePath, updatedJobs) {
-  const ws = fs.createWriteStream(filePath, { flags: 'w', includeEndRowDelimiter: true });
+  const ws = fs.createWriteStream(filePath, { flags: 'a', includeEndRowDelimiter: true });
   fastcsv
-    .write(updatedJobs, { headers: true, includeEndRowDelimiter: true })
+    .write(updatedJobs, { headers: false, includeEndRowDelimiter: true })
     .pipe(ws);
 }
 
@@ -57,12 +52,13 @@ async function processJobs(newJobs, existingJobs, domain) {
   const today = new Date().toISOString().split('T')[0].split('-').reverse().join('/');
   const emailLastSent = {};
 
-  for (const job of newJobs) {
+  console.log("Processing jobs...");
+
+  for (const job of existingJobs) {
     if (job.email && job.comms) {
       emailLastSent[job.email] = job.comms;
     }
   }
-
 
   for (let job of newJobs) {
     if (job.email && emailLastSent[job.email]) {
@@ -76,6 +72,8 @@ async function processJobs(newJobs, existingJobs, domain) {
 async function processJobsAndSendEmails(newJobs, existingJobs, domain) {
   const today = new Date().toISOString().split('T')[0].split('-').reverse().join('/');
   const emailLastSent = {};
+
+  console.log("Processing jobs and sending emails...");
 
   for (const job of existingJobs) {
     if (job.email && job.comms) {
@@ -108,10 +106,10 @@ async function sendEmail(toEmail, companyName, jobTitle, domain) {
     return;
   }
   const messageNz = {
-      to: toEmail,
-      from: 'nelly@necta.nz',
-      subject: `${jobTitle}`,
-      text: `Kia Ora ${companyName} Team! \n\n 
+    to: toEmail,
+    from: 'nelly@necta.nz',
+    subject: `${jobTitle}`,
+    text: `Kia Ora ${companyName} Team! \n\n 
       I am Nelly from Necta, a Kiwi-operated job listing platform.\n\n 
       We understand that there's been a significant rise in the cost of job boards like Seek, Trade Me, and LinkedIn. 
       In these challenging times, we're reaching out as Kiwis to help Kiwis reduce talent acquisition costs.\n\n 
@@ -141,9 +139,7 @@ async function sendEmail(toEmail, companyName, jobTitle, domain) {
     Looking forward to helping you streamline your hiring process.\n\n
     Kind regards,\n
     Nelly at Necta\n`
-    
-};
-
+  };
 
   const message = domain === 'nz' ? messageNz : messageAu;
 
@@ -155,17 +151,19 @@ async function sendEmail(toEmail, companyName, jobTitle, domain) {
   }
 }
 
-
-async function scrapeAllJobs(domain) {
+async function scrapeAllJobs(domain, type) {
   let currentPage = 1;
   let allJobs = [];
   let hasMorePages = true;
-  const baseURL = baseUrls[domain];
+  const baseURL = `${baseUrls[domain]}/${type}`;
+
+  console.log(`Scraping jobs from ${baseURL}`);
 
   while (hasMorePages) {
     const pageURL = constructUrl(baseURL, currentPage, dateRange, salaryRange, salaryType);
+    console.log(`Scraping page: ${pageURL}`);
     
-    const jobsOnPage = await scrapeJobPage(pageURL);
+    const jobsOnPage = await scrapeJobPage(pageURL, type);
 
     if (jobsOnPage.length === 0) {
       hasMorePages = false;
@@ -175,6 +173,7 @@ async function scrapeAllJobs(domain) {
     }
   }
 
+  console.log(`Total jobs scraped: ${allJobs.length}`);
   return allJobs;
 }
 
@@ -189,158 +188,170 @@ async function scrapeEmailFromJobPage(jobUrl) {
     const phoneRegex = /(\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4})/;  // Simple pattern for US-like phone numbers
     const emailMatch = bodyText.match(emailRegex);
     const phoneMatch = bodyText.match(phoneRegex);
+
+    const descriptionElem = document.querySelector('div[data-automation="jobAdDetails"]');
+    const fullDescription = descriptionElem ? descriptionElem.innerText.replace(/\n/g, ' ') : "";
+
+    const classificationElem = document.querySelector('span[data-automation="job-detail-classifications"]');
+    const jobClassification = classificationElem ? classificationElem.innerText : "";
+
     return {
-        email: emailMatch ? emailMatch[0] : null,
-        phone: phoneMatch ? phoneMatch[0] : null
+      email: emailMatch ? emailMatch[0] : null,
+      phone: phoneMatch ? phoneMatch[0] : null,
+      fullDescription: fullDescription,
+      jobClassification: jobClassification
     };
   });
 
-  // const email = await page.evaluate(() => {
-  //     const bodyText = document.body.innerText;
-  //     // A more robust regex pattern for email matching
-  //     const emailRegex = /[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}/;
-  //     const emailMatch = bodyText.match(emailRegex);
-  //     // console.log('Email found:', emailMatch ? emailMatch[0] : "None");
-  //     return emailMatch ? emailMatch[0] : null;
-  // });
-
   await browser.close();
+  console.log(`Scraped contact info from ${jobUrl}`);
   return contactInfo;
 }
 
-
-
-
-
-
-async function scrapeJobPage(url) {
+async function scrapeJobPage(url, jobType) {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
   page.setDefaultTimeout(90000);
   await page.goto(url, { waitUntil: 'networkidle0', timeout: 90000 });
   const todayDate = new Date().toISOString().split('T')[0];
-  const jobs = await page.evaluate((todayDate) => {
-      function subtractDaysFromDate(date, days) {
-          const res = new Date(date);
-          res.setDate(res.getDate() - days);
-          return res;
-      }
-
-      function formatDate(string) {
-        const match = string.match(/^(\d+)d$/); // Match a number followed by 'd'
-        if (!match) return null; // Return null if the format is incorrect
-    
-        const daysAgo = parseInt(match[1], 10); // Extract number of days
-        if (isNaN(daysAgo)) return null; // Return null if not a number
-    
-        const date = new Date();
-        date.setDate(date.getDate() - daysAgo);
-        return date.toISOString();
+  const jobs = await page.evaluate((todayDate, jobType) => {
+    function subtractDaysFromDate(date, days) {
+      const res = new Date(date);
+      res.setDate(res.getDate() - days);
+      return res;
     }
 
-      const regex = /[\w.-]+@[\w.-]+\.\w+/;
-      const regexEmail = /[\w.-]+@[\w.-]+\.\w+/;
-      const regexPhone = /(\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4})/; 
-      const pElems = document.querySelectorAll('p');
-      const titleElems = document.querySelectorAll('a[data-automation="jobTitle"]');
-      const companyElems = document.querySelectorAll('a[data-automation="jobCompany"]');
-      const shortDescriptionElems = document.querySelectorAll('span[data-automation="jobShortDescription"]');
-      const listingDateElems = document.querySelectorAll('span[data-automation="jobListingDate"]');
-      const locationElements = document.querySelectorAll('a[data-automation="jobLocation"]');
-      const salaryElems = document.querySelectorAll('span[data-automation="jobSalary"]');
+    function formatDate(string) {
+      const match = string.match(/^(\d+)d$/); // Match a number followed by 'd'
+      if (!match) return null; // Return null if the format is incorrect
+
+      const daysAgo = parseInt(match[1], 10); // Extract number of days
+      if (isNaN(daysAgo)) return null; // Return null if not a number
+
+      const date = new Date();
+      date.setDate(date.getDate() - daysAgo);
+      return date.toISOString();
+    }
+
+    const regex = /[\w.-]+@[\w.-]+\.\w+/;
+    const regexEmail = /[\w.-]+@[\w.-]+\.\w+/;
+    const regexPhone = /(\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4})/;
+    const pElems = document.querySelectorAll('p');
+    const titleElems = document.querySelectorAll('a[data-automation="jobTitle"]');
+    const companyElems = document.querySelectorAll('a[data-automation="jobCompany"]');
+    const shortDescriptionElems = document.querySelectorAll('span[data-automation="jobShortDescription"]');
+    const listingDateElems = document.querySelectorAll('span[data-automation="jobListingDate"]');
+    const locationElements = document.querySelectorAll('a[data-automation="jobLocation"]');
+    const salaryElems = document.querySelectorAll('span[data-automation="jobSalary"]');
+    let locationCity = '';
+    let locationRegion = '';
+    const todayDate2 = new Date().toISOString().split('T')[0];
+    if (locationElements.length >= 2) {
+      locationCity = locationElements[0].innerText;   // First item for city
+      locationRegion = locationElements[1].innerText; // Second item for region
+    } else if (locationElements.length === 1) {
+      locationCity = locationElements[0].innerText;   // Only one item, assuming it's the city
+      // locationRegion remains an empty string as there's no second item
+    }
+    const jobsArr = [];
+    for (let i = 0; i < titleElems.length; i++) {
       let locationCity = '';
       let locationRegion = '';
-      const todayDate2 = new Date().toISOString().split('T')[0];
+
       if (locationElements.length >= 2) {
-          locationCity = locationElements[0].innerText;   // First item for city
-          locationRegion = locationElements[1].innerText; // Second item for region
+        locationCity = locationElements[0].innerText;   // First item for city
+        locationRegion = locationElements[1].innerText; // Second item for region
       } else if (locationElements.length === 1) {
-          locationCity = locationElements[0].innerText;   // Only one item, assuming it's the city
-          // locationRegion remains an empty string as there's no second item
+        locationCity = locationElements[0].innerText;   // Only one item, assuming it's the city
+        // locationRegion remains an empty string as there's no second item
       }
-      const jobsArr = [];
-      for (let i = 0; i < titleElems.length; i++) {
-          let locationCity = '';
-          let locationRegion = '';
-    
-          if (locationElements.length >= 2) {
-              locationCity = locationElements[0].innerText;   // First item for city
-              locationRegion = locationElements[1].innerText; // Second item for region
-          } else if (locationElements.length === 1) {
-              locationCity = locationElements[0].innerText;   // Only one item, assuming it's the city
-              // locationRegion remains an empty string as there's no second item
-          }
-          let salary = '';
-          if (salaryElems[i]) {
-              salary = salaryElems[i].innerText.trim();
-          }
-    
-          let jobObject = {
-              title: titleElems[i] ? titleElems[i].innerText : "",
-              company: companyElems[i] ? companyElems[i].innerText : "",
-              description: shortDescriptionElems[i] ? shortDescriptionElems[i].innerText : "",
-              link: titleElems[i] ? titleElems[i].href : "",
-              listedOn: listingDateElems[i] ? formatDate(listingDateElems[i].innerText) : "",
-              email: null,
-              phone: null,
-              city: locationCity,    // Adding city
-              region: locationRegion, 
-              salary: salary,
-              runDate: todayDate || todayDate2
-              
-          };
-
-          for (let pElem of pElems) {
-            const emailMatch = pElem.innerText.match(regexEmail);
-            const phoneMatch = pElem.innerText.match(regexPhone);
-            if (emailMatch) jobObject.email = emailMatch[0];
-            if (phoneMatch) jobObject.phone = phoneMatch[0];
-            if (emailMatch || phoneMatch) break; // Stop searching if either is found
-        }
-
-          jobsArr.push(jobObject);
+      let salary = '';
+      if (salaryElems[i]) {
+        salary = salaryElems[i].innerText.trim();
       }
 
-      return jobsArr;
-  });
+      let jobObject = {
+        title: titleElems[i] ? titleElems[i].innerText : "",
+        company: companyElems[i] ? companyElems[i].innerText : "",
+        description: shortDescriptionElems[i] ? shortDescriptionElems[i].innerText : "",
+        link: titleElems[i] ? titleElems[i].href : "",
+        listedOn: listingDateElems[i] ? formatDate(listingDateElems[i].innerText) : "",
+        email: null,
+        phone: null,
+        city: locationCity,    // Adding city
+        region: locationRegion,
+        salary: salary,
+        runDate: todayDate || todayDate2,
+        jobType: jobType,
+        fullDescription: "",
+        jobClassification: "",
+        comms: ""
+      };
+
+      for (let pElem of pElems) {
+        const emailMatch = pElem.innerText.match(regexEmail);
+        const phoneMatch = pElem.innerText.match(regexPhone);
+        if (emailMatch) jobObject.email = emailMatch[0];
+        if (phoneMatch) jobObject.phone = phoneMatch[0];
+        if (emailMatch || phoneMatch) break; // Stop searching if either is found
+      }
+
+      jobsArr.push(jobObject);
+    }
+
+    return jobsArr;
+  }, todayDate, jobType);
 
   await browser.close();
+  console.log(`Scraped jobs from page: ${url}`);
   return jobs;
 }
 
-
 async function readExistingJobsFromCSV(filePath) {
   return new Promise((resolve, reject) => {
-      if (!fs.existsSync(filePath)) {
-          resolve([]);
-          return;
-      }
+    if (!fs.existsSync(filePath)) {
+      console.log(`CSV file not found: ${filePath}`);
+      resolve([]);
+      return;
+    }
 
-      const jobs = [];
-      fs.createReadStream(filePath)
-          .pipe(fastcsv.parse({ headers: true }))
-          .on("data", row => jobs.push(row))
-          .on("end", () => resolve(jobs))
-          .on("error", error => reject(error));
+    const jobs = [];
+    fs.createReadStream(filePath)
+      .pipe(fastcsv.parse({ headers: true }))
+      .on("data", row => jobs.push(row))
+      .on("end", () => {
+        console.log(`Read ${jobs.length} existing jobs from CSV`);
+        resolve(jobs);
+      })
+      .on("error", error => {
+        console.error(`Error reading CSV file: ${error}`);
+        reject(error);
+      });
   });
 }
 
 async function saveJobsToCSV(jobsToAdd, filePath) {
   const existingJobs = await readExistingJobsFromCSV(filePath);
-  
+  console.log(`Existing jobs count: ${existingJobs.length}`);
+
+  // Ensure existingJobs is always an array
+  const existingJobsArray = Array.isArray(existingJobs) ? existingJobs : [];
+
   // Only append new jobs that do not exist in the CSV yet
-  const jobsToAppend = jobsToAdd.filter(newJob => 
-      !existingJobs.some(existingJob => 
-          existingJob.title === newJob.title && existingJob.company === newJob.company
-      )
+  const jobsToAppend = jobsToAdd.filter(newJob =>
+    !existingJobsArray.some(existingJob =>
+      existingJob.title === newJob.title && existingJob.company === newJob.company
+    )
   );
 
+  console.log(`New jobs to append: ${jobsToAppend.length}`);
+
   if (jobsToAppend.length > 0) {
-      // Append new jobs to the CSV
-      const ws = fs.createWriteStream(filePath, { flags: 'a', includeEndRowDelimiter: true });
-      fastcsv
-          .write(jobsToAppend, { headers: false, includeEndRowDelimiter: true })
-          .pipe(ws);
+    // Append new jobs to the CSV
+    const ws = fs.createWriteStream(filePath, { flags: 'a', includeEndRowDelimiter: true });
+    fastcsv
+      .write(jobsToAppend, { headers: false, includeEndRowDelimiter: true })
+      .pipe(ws);
   }
 }
 
@@ -355,37 +366,42 @@ async function saveJobsToCSV(jobsToAdd, filePath) {
     const date = new Date().toISOString().split('T')[0].split('-').reverse().join('');
     const newFilePath = jobsCsvFilePath.replace('.csv', `_${date}.csv`);
 
-    const existingJobs = await readExistingJobsFromCSV(jobsCsvFilePath);
-    const scrapedJobs = await scrapeAllJobs(domain);
+    for (const jobType of ['full-time', 'contract-temp']) {
+      const existingJobs = await readExistingJobsFromCSV(jobsCsvFilePath);
+      console.log(`Processing ${domain} jobs (${jobType})`);
+      
+      const scrapedJobs = await scrapeAllJobs(domain, jobType);
+      console.log(`Scraped ${scrapedJobs.length} ${jobType} jobs for ${domain}`);
 
-  // Get emails for scraped jobs
-  for (let job of scrapedJobs) {
-    if (job.link) {
-      const contactDetails = await scrapeEmailFromJobPage(job.link);
-      job.email = contactDetails.email;
-      job.phone = contactDetails.phone;
+      // Get emails, full description, and job classification for scraped jobs
+      for (let job of scrapedJobs) {
+        if (job.link) {
+          const contactDetails = await scrapeEmailFromJobPage(job.link);
+          job.email = contactDetails.email;
+          job.phone = contactDetails.phone;
+          job.fullDescription = contactDetails.fullDescription;
+          job.jobClassification = contactDetails.jobClassification;
+        }
+      }
+
+      // Filter out jobs that already exist in CSV
+      const newJobs = scrapedJobs.filter(scrapedJob =>
+        !existingJobs.some(existingJob =>
+          existingJob.title === scrapedJob.title && existingJob.company === scrapedJob.company
+        )
+      );
+
+      // Process new jobs for sending emails and updating comms field
+      const processedNewJobs = await processJobsAndSendEmails(newJobs, existingJobs || []);
+      const processedNewJobsOnly = await processJobs(newJobs, existingJobs || []);
+
+      // Append new jobs to the existing CSV
+      await saveJobsToCSV(processedNewJobs, jobsCsvFilePath);
+      // Append new jobs with contact to the new CSV file
+      const jobsWithContact = processedNewJobsOnly.filter(job => job.email || job.phone);
+      await updateCSVwithComms(newFilePath, jobsWithContact);
     }
   }
 
-  // Filter out jobs that already exist in CSV
-  const newJobs = scrapedJobs.filter(scrapedJob => 
-    !existingJobs.some(existingJob => 
-      existingJob.title === scrapedJob.title && existingJob.company === scrapedJob.company
-    )
-  );
-  // Process new jobs for sending emails and updating comms field
-  const processedNewJobs = await processJobsAndSendEmails(newJobs, existingJobs);
-  const processedNewJobsOnly = await processJobs(newJobs);
-  // // Combine existing jobs with processed new jobs
-  // const combinedJobs = [...existingJobs, ...processedNewJobs];
-
-  // Write the combined jobs to the CSV, replacing the old file
-  const jobsWithContact = processedNewJobsOnly.filter(job => job.email || job.phone);
-  // console.log("new jobs with contact only", jobsWithContact)
-  await updateCSVwithComms(jobsCsvFilePath, processedNewJobs);
-  await updateCSVwithComms(newFilePath, jobsWithContact);
-
-}
-
-console.log("Job scraping and email process completed.");
+  console.log("Job scraping and email process completed.");
 })();
