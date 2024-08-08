@@ -11,7 +11,7 @@ const baseUrls = {
   nz: "https://www.seek.co.nz/jobs-in-information-communication-technology",
   au: "https://www.seek.com.au/jobs-in-information-communication-technology"
 };
-const dateRange = 1; // Adjust this as necessary
+const dateRange = 1; // Adjust this as necessary 1 is today, 3 is past three days
 const salaryRange = '80000-';
 const salaryType = 'annual';
 
@@ -204,7 +204,7 @@ async function scrapeEmailFromJobPage(jobUrl) {
   });
 
   await browser.close();
-  console.log(`Scraped contact info from ${jobUrl}`);
+  // console.log(`Scraped contact info from ${jobUrl}`);
   return contactInfo;
 }
 
