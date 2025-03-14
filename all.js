@@ -4,7 +4,6 @@ const fastcsv = require("fast-csv");
 const path = require("path");
 require("dotenv").config();
 
-const BATCH_SIZE = 500;
 const BASE_URL = "https://www.seek.co.nz/jobs";
 
 // Function to scrape a listing page for jobs
@@ -43,6 +42,7 @@ async function scrapeJobPage(url) {
         locationCity = locationElements[0].innerText;
       }
 
+      // Set initial apply type based on available info
       let applyType = "Apply";
       if (applyButtonElems[i]) {
         const target = applyButtonElems[i].getAttribute("target");
@@ -74,6 +74,7 @@ async function scrapeJobPage(url) {
         applyType: applyType
       };
 
+      // Attempt to extract an email or phone from <p> elements
       const pElems = document.querySelectorAll("p");
       for (let pElem of pElems) {
         const emailMatch = pElem.innerText.match(regexEmail);
@@ -103,7 +104,7 @@ async function getApplyTypeFromJobDetail(url) {
   } catch (err) {
     console.error(`Error loading job detail for ${url}: ${err}`);
     await browser.close();
-    return "Apply";
+    return "Apply"; // Fallback value in case of an error
   }
   const applyType = await page.evaluate(() => {
     const btn = document.querySelector('a[data-automation="job-detail-apply"]');
@@ -122,40 +123,30 @@ async function getApplyTypeFromJobDetail(url) {
   return applyType;
 }
 
-// Process a batch of jobs: update each job’s apply type concurrently (with a limit) and write to CSV
-async function processBatch(jobsBatch, csvStream) {
-  const CONCURRENT_DETAIL = 10; // Limit concurrent detail scrapes
-  const detailPromises = [];
-  
-  for (let job of jobsBatch) {
-    const promise = (async () => {
-      try {
-        const detailApplyType = await getApplyTypeFromJobDetail(job.link);
-        job.applyType = detailApplyType;
-        console.log(`Updated job "${job.title}" with apply type: ${detailApplyType}`);
-      } catch (err) {
-        console.error(`Error updating job "${job.title}": ${err}`);
-      }
-      csvStream.write(job);
-    })();
-    
-    detailPromises.push(promise);
-    
-    // When we hit the concurrency limit, wait for the batch to finish
-    if (detailPromises.length >= CONCURRENT_DETAIL) {
-      await Promise.all(detailPromises);
-      detailPromises.length = 0;
+// Main function
+(async () => {
+  // 1. Gather all job listings (holding all links in memory)
+  let currentPage = 1;
+  let allJobs = [];
+  let hasMorePages = true;
+
+  while (hasMorePages) {
+    const pageURL = `${BASE_URL}?page=${currentPage}`;
+    console.log(`Scraping listing page: ${pageURL}`);
+    const jobsOnPage = await scrapeJobPage(pageURL);
+    if (jobsOnPage.length === 0) {
+      hasMorePages = false;
+      console.log("No more jobs found, ending pagination.");
+    } else {
+      allJobs = allJobs.concat(jobsOnPage);
+      console.log(`Total jobs collected so far: ${allJobs.length}`);
+      currentPage++;
     }
   }
-  
-  // Process any remaining detail scrapes
-  if (detailPromises.length > 0) {
-    await Promise.all(detailPromises);
-  }
-}
 
-(async () => {
-  // Setup CSV streaming so we can write incrementally
+  console.log(`Finished gathering job listings. Total jobs: ${allJobs.length}`);
+
+  // 2. Create CSV stream for writing output immediately
   const outputPath = path.join(__dirname, "combinedJobs.csv");
   const ws = fs.createWriteStream(outputPath);
   const csvStream = fastcsv.format({ headers: true });
@@ -163,46 +154,16 @@ async function processBatch(jobsBatch, csvStream) {
     console.log(`All jobs saved to ${outputPath}`);
   });
 
-  const CONCURRENT_WORKERS = 5; // Number of listing pages to fetch concurrently
-  let currentPage = 1;
-  let finished = false;
-  let batch = [];
-
-  // Loop until a fetched page returns no jobs
-  while (!finished) {
-    let pagePromises = [];
-    for (let i = 0; i < CONCURRENT_WORKERS; i++) {
-      const pageURL = `${BASE_URL}?page=${currentPage}`;
-      console.log(`Scheduling scraping for page: ${pageURL}`);
-      // Wrap each promise to include the page number (for logging)
-      pagePromises.push(
-        scrapeJobPage(pageURL).then(jobs => ({ jobs, page: currentPage }))
-      );
-      currentPage++;
+  // 3. Process each job sequentially: visit its detail page, update the apply type, and write directly to CSV
+  for (let job of allJobs) {
+    try {
+      const detailApplyType = await getApplyTypeFromJobDetail(job.link);
+      job.applyType = detailApplyType;
+      console.log(`Updated job "${job.title}" with apply type: ${detailApplyType}`);
+    } catch (err) {
+      console.error(`Error updating job "${job.title}": ${err}`);
     }
-
-    const results = await Promise.all(pagePromises);
-
-    for (const { jobs, page } of results) {
-      if (jobs.length === 0) {
-        finished = true;
-        console.log(`No jobs found on page ${page}. Ending pagination.`);
-      } else {
-        batch = batch.concat(jobs);
-        console.log(`Collected ${batch.length} jobs so far in current batch.`);
-        if (batch.length >= BATCH_SIZE) {
-          console.log(`Processing batch of ${batch.length} jobs.`);
-          await processBatch(batch, csvStream);
-          batch = [];
-        }
-      }
-    }
-  }
-
-  // Process any remaining jobs in the final batch
-  if (batch.length > 0) {
-    console.log(`Processing final batch of ${batch.length} jobs.`);
-    await processBatch(batch, csvStream);
+    csvStream.write(job);
   }
 
   csvStream.end();
