@@ -12,7 +12,13 @@ async function scrapeJobPage(url) {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
   page.setDefaultTimeout(90000);
-  await page.goto(url, { waitUntil: "networkidle0", timeout: 90000 });
+  try {
+    await page.goto(url, { waitUntil: "networkidle0", timeout: 90000 });
+  } catch (err) {
+    console.error(`Error navigating to ${url}: ${err}`);
+    await browser.close();
+    return [];
+  }
   const todayDate = new Date().toISOString().split("T")[0];
 
   const jobs = await page.evaluate((todayDate) => {
@@ -37,7 +43,6 @@ async function scrapeJobPage(url) {
         locationCity = locationElements[0].innerText;
       }
 
-      // Determine initial apply type based on the apply button info
       let applyType = "Apply";
       if (applyButtonElems[i]) {
         const target = applyButtonElems[i].getAttribute("target");
@@ -69,7 +74,6 @@ async function scrapeJobPage(url) {
         applyType: applyType
       };
 
-      // Attempt to extract an email or phone from <p> elements
       const pElems = document.querySelectorAll("p");
       for (let pElem of pElems) {
         const emailMatch = pElem.innerText.match(regexEmail);
@@ -99,7 +103,7 @@ async function getApplyTypeFromJobDetail(url) {
   } catch (err) {
     console.error(`Error loading job detail for ${url}: ${err}`);
     await browser.close();
-    return "Apply"; // fallback value in case of an error
+    return "Apply";
   }
   const applyType = await page.evaluate(() => {
     const btn = document.querySelector('a[data-automation="job-detail-apply"]');
@@ -118,17 +122,35 @@ async function getApplyTypeFromJobDetail(url) {
   return applyType;
 }
 
-// Process a batch of jobs: update each job’s apply type and write it to the CSV stream
+// Process a batch of jobs: update each job’s apply type concurrently (with a limit) and write to CSV
 async function processBatch(jobsBatch, csvStream) {
+  const CONCURRENT_DETAIL = 10; // Limit concurrent detail scrapes
+  const detailPromises = [];
+  
   for (let job of jobsBatch) {
-    try {
-      const detailApplyType = await getApplyTypeFromJobDetail(job.link);
-      job.applyType = detailApplyType;
-      console.log(`Updated job "${job.title}" with apply type: ${detailApplyType}`);
-    } catch (err) {
-      console.error(`Error updating job "${job.title}": ${err}`);
+    const promise = (async () => {
+      try {
+        const detailApplyType = await getApplyTypeFromJobDetail(job.link);
+        job.applyType = detailApplyType;
+        console.log(`Updated job "${job.title}" with apply type: ${detailApplyType}`);
+      } catch (err) {
+        console.error(`Error updating job "${job.title}": ${err}`);
+      }
+      csvStream.write(job);
+    })();
+    
+    detailPromises.push(promise);
+    
+    // When we hit the concurrency limit, wait for the batch to finish
+    if (detailPromises.length >= CONCURRENT_DETAIL) {
+      await Promise.all(detailPromises);
+      detailPromises.length = 0;
     }
-    csvStream.write(job);
+  }
+  
+  // Process any remaining detail scrapes
+  if (detailPromises.length > 0) {
+    await Promise.all(detailPromises);
   }
 }
 
@@ -141,33 +163,43 @@ async function processBatch(jobsBatch, csvStream) {
     console.log(`All jobs saved to ${outputPath}`);
   });
 
+  const CONCURRENT_WORKERS = 5; // Number of listing pages to fetch concurrently
   let currentPage = 1;
-  let hasMorePages = true;
+  let finished = false;
   let batch = [];
 
-  // Loop through paginated job listing pages
-  while (hasMorePages) {
-    const pageURL = `${BASE_URL}?page=${currentPage}`;
-    console.log(`Scraping page: ${pageURL}`);
-    const jobsOnPage = await scrapeJobPage(pageURL);
-    if (jobsOnPage.length === 0) {
-      hasMorePages = false;
-      console.log("No more jobs found on page, ending pagination.");
-    } else {
-      // Accumulate jobs into the batch
-      batch = batch.concat(jobsOnPage);
-      console.log(`Collected ${batch.length} jobs so far in current batch.`);
-      // Process the batch if it reaches (or exceeds) the BATCH_SIZE
-      if (batch.length >= BATCH_SIZE) {
-        console.log(`Processing batch of ${batch.length} jobs.`);
-        await processBatch(batch, csvStream);
-        batch = []; // clear batch to free memory
-      }
+  // Loop until a fetched page returns no jobs
+  while (!finished) {
+    let pagePromises = [];
+    for (let i = 0; i < CONCURRENT_WORKERS; i++) {
+      const pageURL = `${BASE_URL}?page=${currentPage}`;
+      console.log(`Scheduling scraping for page: ${pageURL}`);
+      // Wrap each promise to include the page number (for logging)
+      pagePromises.push(
+        scrapeJobPage(pageURL).then(jobs => ({ jobs, page: currentPage }))
+      );
       currentPage++;
+    }
+
+    const results = await Promise.all(pagePromises);
+
+    for (const { jobs, page } of results) {
+      if (jobs.length === 0) {
+        finished = true;
+        console.log(`No jobs found on page ${page}. Ending pagination.`);
+      } else {
+        batch = batch.concat(jobs);
+        console.log(`Collected ${batch.length} jobs so far in current batch.`);
+        if (batch.length >= BATCH_SIZE) {
+          console.log(`Processing batch of ${batch.length} jobs.`);
+          await processBatch(batch, csvStream);
+          batch = [];
+        }
+      }
     }
   }
 
-  // Process any remaining jobs that didn't complete a full batch
+  // Process any remaining jobs in the final batch
   if (batch.length > 0) {
     console.log(`Processing final batch of ${batch.length} jobs.`);
     await processBatch(batch, csvStream);
