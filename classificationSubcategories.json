@@ -1,0 +1,4690 @@
+[
+  {
+    "category": {
+      "text": "Accounting",
+      "href": "https://www.seek.co.nz/jobs-in-accounting"
+    },
+    "subcategories": [
+      {
+        "text": "Accounts Officers/Clerks",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/accounts-officers-clerks"
+      },
+      {
+        "text": "Accounts Payable",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/accounts-payable"
+      },
+      {
+        "text": "accounts receivable",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/accounts-receivable-credit-control"
+      },
+      {
+        "text": "Analysis & Reporting",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/analysis-reporting"
+      },
+      {
+        "text": "Assistant Accountants",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/assistant-accountants"
+      },
+      {
+        "text": "Audit - External",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/audit-external"
+      },
+      {
+        "text": "Audit - Internal",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/audit-internal"
+      },
+      {
+        "text": "Bookkeeping & Small Practice Accounting",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/bookkeeping-small-practice-accounting"
+      },
+      {
+        "text": "Corporate Advisory",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/business-services-corporate-advisory"
+      },
+      {
+        "text": "Company Secretaries",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/company-secretaries"
+      },
+      {
+        "text": "Compliance & Risk",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/compliance-risk"
+      },
+      {
+        "text": "Cost Accounting",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/cost-accounting"
+      },
+      {
+        "text": "Financial Accounting & Reporting",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/financial-accounting-reporting"
+      },
+      {
+        "text": "Financial Managers & Controllers",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/financial-managers-controllers"
+      },
+      {
+        "text": "Forensic Accounting & Investigation",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/forensic-accounting-investigation"
+      },
+      {
+        "text": "Insolvency & Corporate Recovery",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/insolvency-corporate-recovery"
+      },
+      {
+        "text": "Inventory & Fixed Assets",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/inventory-fixed-assets"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/management"
+      },
+      {
+        "text": "Management Accounting & Budgeting",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/management-accounting-budgeting"
+      },
+      {
+        "text": "payroll",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/payroll"
+      },
+      {
+        "text": "Strategy & Planning",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/strategy-planning"
+      },
+      {
+        "text": "Systems Accounting & IT Audit",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/systems-accounting-it-audit"
+      },
+      {
+        "text": "Taxation",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/taxation"
+      },
+      {
+        "text": "Treasury",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/treasury"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/remote"
+      },
+      {
+        "text": "Manukau & East Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-Manukau-&-East-Auckland-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Mount Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-Mount-Wellington-Auckland"
+      },
+      {
+        "text": "Silverdale",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-Silverdale-Auckland"
+      },
+      {
+        "text": "East Tamaki",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-East-Tamaki-Auckland"
+      },
+      {
+        "text": "Auckland Airport",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-Auckland-Airport-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-All-Auckland"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-Penrose-Auckland"
+      },
+      {
+        "text": "Northcote",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-Northcote-Auckland"
+      },
+      {
+        "text": "Mangere",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-Mangere-Auckland"
+      },
+      {
+        "text": "Whangarei Central",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-Whangarei-Central-Northland"
+      },
+      {
+        "text": "Northland",
+        "href": "https://www.seek.co.nz/jobs-in-accounting/in-All-Northland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Administration & Office Support",
+      "href": "https://www.seek.co.nz/jobs-in-administration-office-support"
+    },
+    "subcategories": [
+      {
+        "text": "Administrative Assistants",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/administrative-assistants"
+      },
+      {
+        "text": "Client & Sales Administration",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/client-sales-administration"
+      },
+      {
+        "text": "Contracts Administration",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/contracts-administration"
+      },
+      {
+        "text": "Data Entry & Word Processing",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/data-entry-word-processing"
+      },
+      {
+        "text": "Office Management",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/office-management"
+      },
+      {
+        "text": "PA, EA & Secretarial",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/pa-ea-secretarial"
+      },
+      {
+        "text": "Receptionists",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/receptionists"
+      },
+      {
+        "text": "Records Management & Document Control",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/records-management-document-control"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/remote"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "East Tamaki",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-East-Tamaki-Auckland"
+      },
+      {
+        "text": "Ellerslie",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Ellerslie-Auckland"
+      },
+      {
+        "text": "Glenfield",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Glenfield-Auckland"
+      },
+      {
+        "text": "Mount Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Mount-Wellington-Auckland"
+      },
+      {
+        "text": "Ponsonby",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Ponsonby-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-All-Auckland"
+      },
+      {
+        "text": "St Johns",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-St-Johns-Auckland"
+      },
+      {
+        "text": "Wiri",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Wiri-Auckland"
+      },
+      {
+        "text": "Queenstown",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Queenstown-Otago"
+      },
+      {
+        "text": "Otago",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-All-Otago"
+      },
+      {
+        "text": "Mount Maunganui",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Mount-Maunganui-Bay-of-Plenty"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "Avondale",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Avondale-Auckland"
+      },
+      {
+        "text": "Lower Hutt",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Lower-Hutt-Wellington"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-All-Wellington"
+      },
+      {
+        "text": "Glen Eden",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Glen-Eden-Auckland"
+      },
+      {
+        "text": "Manukau",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Manukau-Auckland"
+      },
+      {
+        "text": "Takanini",
+        "href": "https://www.seek.co.nz/jobs-in-administration-office-support/in-Takanini-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Advertising, Arts & Media",
+      "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media"
+    },
+    "subcategories": [
+      {
+        "text": "Agency Account Management",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/agency-account-management"
+      },
+      {
+        "text": "art direction",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/art-direction"
+      },
+      {
+        "text": "Editing & Publishing",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/editing-publishing"
+      },
+      {
+        "text": "Event Management",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/event-management"
+      },
+      {
+        "text": "Journalism & Writing",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/journalism-writing"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/management"
+      },
+      {
+        "text": "Media Strategy, Planning & Buying",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/media-strategy-planning-buying"
+      },
+      {
+        "text": "Performing Arts",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/performing-arts"
+      },
+      {
+        "text": "Photography",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/photography"
+      },
+      {
+        "text": "Programming & Production",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/programming-production"
+      },
+      {
+        "text": "Promotions",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/promotions"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/remote"
+      },
+      {
+        "text": "Henderson",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Henderson-Auckland"
+      },
+      {
+        "text": "Christchurch",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Christchurch-Canterbury"
+      },
+      {
+        "text": "Mount Eden",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Mount-Eden-Auckland"
+      },
+      {
+        "text": "Wellington Central",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Wellington-CBD-Wellington"
+      },
+      {
+        "text": "Hillcrest",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Hillcrest-Waikato"
+      },
+      {
+        "text": "Avondale",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Avondale-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-All-Auckland"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-All-Canterbury"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-All-Wellington"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-All-Waikato"
+      },
+      {
+        "text": "Manukau",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Manukau-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Rosedale",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Rosedale-Auckland"
+      },
+      {
+        "text": "Freemans Bay",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Freemans-Bay-Auckland"
+      },
+      {
+        "text": "Queenstown",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Queenstown-Otago"
+      },
+      {
+        "text": "Otago",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-All-Otago"
+      },
+      {
+        "text": "Glenfield",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Glenfield-Auckland"
+      },
+      {
+        "text": "Ponsonby",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Ponsonby-Auckland"
+      },
+      {
+        "text": "Mount Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-advertising-arts-media/in-Mount-Wellington-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Banking & Financial Services",
+      "href": "https://www.seek.co.nz/jobs-in-banking-financial-services"
+    },
+    "subcategories": [
+      {
+        "text": "Account & Relationship Management",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/account-relationship-management"
+      },
+      {
+        "text": "Analysis & Reporting",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/analysis-reporting"
+      },
+      {
+        "text": "Banking - Business",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/banking-business"
+      },
+      {
+        "text": "Banking - Corporate & Institutional",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/banking-corporate-institutional"
+      },
+      {
+        "text": "Banking - Retail/Branch",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/banking-retail-branch"
+      },
+      {
+        "text": "Client Services",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/client-services"
+      },
+      {
+        "text": "Compliance & Risk",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/compliance-risk"
+      },
+      {
+        "text": "corporate finance",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/corporate-finance-investment-banking"
+      },
+      {
+        "text": "Credit",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/credit"
+      },
+      {
+        "text": "Financial Planning",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/financial-planning"
+      },
+      {
+        "text": "Funds Management",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/funds-management"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/management"
+      },
+      {
+        "text": "Mortgages",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/mortgages"
+      },
+      {
+        "text": "Settlements",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/settlements"
+      },
+      {
+        "text": "Stockbroking & Trading",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/stockbroking-trading"
+      },
+      {
+        "text": "Treasury",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/treasury"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/remote"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Hamilton Central",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-Hamilton-Central-Waikato"
+      },
+      {
+        "text": "Newmarket",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-Newmarket-Auckland"
+      },
+      {
+        "text": "Te Rapa",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-Te-Rapa-Waikato"
+      },
+      {
+        "text": "Manurewa",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-Manurewa-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-All-Auckland"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-All-Canterbury"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-All-Waikato"
+      },
+      {
+        "text": "Hamilton",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-Hamilton-Waikato"
+      },
+      {
+        "text": "Mount Maunganui",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-Mount-Maunganui-Bay-of-Plenty"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "Remuera",
+        "href": "https://www.seek.co.nz/jobs-in-banking-financial-services/in-Remuera-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Call Centre & Customer Service",
+      "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service"
+    },
+    "subcategories": [
+      {
+        "text": "Collections",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/collections"
+      },
+      {
+        "text": "Customer Service - Call Centre",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/customer-service-call-centre"
+      },
+      {
+        "text": "Customer Service - Customer Facing",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/customer-service-customer-facing"
+      },
+      {
+        "text": "management",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/management-support"
+      },
+      {
+        "text": "inbound",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/sales-inbound"
+      },
+      {
+        "text": "Sales - Outbound",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/sales-outbound"
+      },
+      {
+        "text": "supervisors/team leaders",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/supervisors-team-leaders"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/remote"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Upper Hutt",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Upper-Hutt-Wellington"
+      },
+      {
+        "text": "Mission Bay",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Mission-Bay-Auckland"
+      },
+      {
+        "text": "Manukau",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Manukau-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Mount Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Mount-Wellington-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-All-Auckland"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-All-Wellington"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-All-Canterbury"
+      },
+      {
+        "text": "Onehunga",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Onehunga-Auckland"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Penrose-Auckland"
+      },
+      {
+        "text": "Mangere",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Mangere-Auckland"
+      },
+      {
+        "text": "Newmarket",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Newmarket-Auckland"
+      },
+      {
+        "text": "Henderson",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Henderson-Auckland"
+      },
+      {
+        "text": "Wellington Central",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Wellington-CBD-Wellington"
+      },
+      {
+        "text": "Auckland Airport",
+        "href": "https://www.seek.co.nz/jobs-in-call-centre-customer-service/in-Auckland-Airport-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "CEO & General Management",
+      "href": "https://www.seek.co.nz/jobs-in-ceo-general-management"
+    },
+    "subcategories": [
+      {
+        "text": "Board Appointments",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/board-appointments"
+      },
+      {
+        "text": "CEO",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/ceo"
+      },
+      {
+        "text": "COO & MD",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/coo-md"
+      },
+      {
+        "text": "General/Business Unit Manager",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/general-business-unit-manager"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/remote"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-All-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Nelson Central",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-Nelson-Central-Tasman"
+      },
+      {
+        "text": "Havelock North",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-Havelock-North-Hawkes-Bay"
+      },
+      {
+        "text": "Rosedale",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-Rosedale-Auckland"
+      },
+      {
+        "text": "Christchurch",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-Christchurch-Canterbury"
+      },
+      {
+        "text": "Tasman",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-All-Tasman"
+      },
+      {
+        "text": "Hawkes Bay",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-All-Hawkes-Bay"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-All-Canterbury"
+      },
+      {
+        "text": "Palmerston North Central",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-Palmerston-North-Central-Manawatu"
+      },
+      {
+        "text": "Manawatu",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-All-Manawatu"
+      },
+      {
+        "text": "Henderson",
+        "href": "https://www.seek.co.nz/jobs-in-ceo-general-management/in-Henderson-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Community Services & Development",
+      "href": "https://www.seek.co.nz/jobs-in-community-services-development"
+    },
+    "subcategories": [
+      {
+        "text": "Aged & Disability Support",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/aged-disability-support"
+      },
+      {
+        "text": "Child Welfare, Youth & Family Services",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/child-welfare-youth-family-services"
+      },
+      {
+        "text": "Community Development",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/community-development"
+      },
+      {
+        "text": "Employment Services",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/employment-services"
+      },
+      {
+        "text": "Fundraising",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/fundraising"
+      },
+      {
+        "text": "housing & homelessness services",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/housing-homelessness-services"
+      },
+      {
+        "text": "indigenous & multicultural services",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/indigenous-multicultural-services"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/management"
+      },
+      {
+        "text": "Volunteer Coordination & Support",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/volunteer-coordination-support"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/remote"
+      },
+      {
+        "text": "Epsom",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Epsom-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Botany Downs",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Botany-Downs-Auckland"
+      },
+      {
+        "text": "Manukau",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Manukau-Auckland"
+      },
+      {
+        "text": "Papakura",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Papakura-Auckland"
+      },
+      {
+        "text": "Te Atatu South",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Te-Atatu-South-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-All-Auckland"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-All-Canterbury"
+      },
+      {
+        "text": "Bethlehem",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Bethlehem-Bay-of-Plenty"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "New Lynn",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-New-Lynn-Auckland"
+      },
+      {
+        "text": "Trentham",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Trentham-Wellington"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-All-Wellington"
+      },
+      {
+        "text": "Manurewa",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Manurewa-Auckland"
+      },
+      {
+        "text": "Meadowbank",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Meadowbank-Auckland"
+      },
+      {
+        "text": "Milford",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Milford-Auckland"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Penrose-Auckland"
+      },
+      {
+        "text": "Albany",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Albany-Auckland"
+      },
+      {
+        "text": "Highland Park",
+        "href": "https://www.seek.co.nz/jobs-in-community-services-development/in-Highland-Park-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Construction",
+      "href": "https://www.seek.co.nz/jobs-in-construction"
+    },
+    "subcategories": [
+      {
+        "text": "Contracts Management",
+        "href": "https://www.seek.co.nz/jobs-in-construction/contracts-management"
+      },
+      {
+        "text": "Estimating",
+        "href": "https://www.seek.co.nz/jobs-in-construction/estimating"
+      },
+      {
+        "text": "Foreperson/Supervisors",
+        "href": "https://www.seek.co.nz/jobs-in-construction/foreperson-supervisors"
+      },
+      {
+        "text": "health & safety",
+        "href": "https://www.seek.co.nz/jobs-in-construction/health-safety-environment"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-construction/management"
+      },
+      {
+        "text": "Planning & Scheduling",
+        "href": "https://www.seek.co.nz/jobs-in-construction/planning-scheduling"
+      },
+      {
+        "text": "Plant & Machinery Operators",
+        "href": "https://www.seek.co.nz/jobs-in-construction/plant-machinery-operators"
+      },
+      {
+        "text": "Project Management",
+        "href": "https://www.seek.co.nz/jobs-in-construction/project-management"
+      },
+      {
+        "text": "Quality Assurance & Control",
+        "href": "https://www.seek.co.nz/jobs-in-construction/quality-assurance-control"
+      },
+      {
+        "text": "Surveying",
+        "href": "https://www.seek.co.nz/jobs-in-construction/surveying"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-construction/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-construction/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-construction/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-construction/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-construction/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-construction/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-construction/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-construction/remote"
+      },
+      {
+        "text": "Albany",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Albany-Auckland"
+      },
+      {
+        "text": "Newmarket",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Newmarket-Auckland"
+      },
+      {
+        "text": "Wiri",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Wiri-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-All-Auckland"
+      },
+      {
+        "text": "Manukau & East Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Manukau-&-East-Auckland-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Pauatahanui",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Pauatahanui-Wellington"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-All-Wellington"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Penrose-Auckland"
+      },
+      {
+        "text": "Lower Hutt",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Lower-Hutt-Wellington"
+      },
+      {
+        "text": "Christchurch",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Christchurch-Canterbury"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-All-Canterbury"
+      },
+      {
+        "text": "East Tamaki",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-East-Tamaki-Auckland"
+      },
+      {
+        "text": "Silverdale",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Silverdale-Auckland"
+      },
+      {
+        "text": "Otahuhu",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Otahuhu-Auckland"
+      },
+      {
+        "text": "Pokeno",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-Pokeno-Waikato"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-construction/in-All-Waikato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Consulting & Strategy",
+      "href": "https://www.seek.co.nz/jobs-in-consulting-strategy"
+    },
+    "subcategories": [
+      {
+        "text": "Analysts",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/analysts"
+      },
+      {
+        "text": "Corporate Development",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/corporate-development"
+      },
+      {
+        "text": "Environment & Sustainability Consulting",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/environment-sustainability-consulting"
+      },
+      {
+        "text": "Management & Change Consulting",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/management-change-consulting"
+      },
+      {
+        "text": "Policy",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/policy"
+      },
+      {
+        "text": "Strategy & Planning",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/strategy-planning"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/remote"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "East Tamaki",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-East-Tamaki-Auckland"
+      },
+      {
+        "text": "Ponsonby",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-Ponsonby-Auckland"
+      },
+      {
+        "text": "Wellington Central",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-Wellington-CBD-Wellington"
+      },
+      {
+        "text": "Hillsborough",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-Hillsborough-Canterbury"
+      },
+      {
+        "text": "Mount Maunganui",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-Mount-Maunganui-Bay-of-Plenty"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-All-Auckland"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-All-Wellington"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-All-Canterbury"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "Mangere",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-Mangere-Auckland"
+      },
+      {
+        "text": "Rolleston",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-Rolleston-Canterbury"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-consulting-strategy/in-Christchurch-Central-Canterbury"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Design & Architecture",
+      "href": "https://www.seek.co.nz/jobs-in-design-architecture"
+    },
+    "subcategories": [
+      {
+        "text": "Architectural Drafting",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/architectural-drafting"
+      },
+      {
+        "text": "Architecture",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/architecture"
+      },
+      {
+        "text": "fashion design",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/fashion-textile-design"
+      },
+      {
+        "text": "Graphic Design",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/graphic-design"
+      },
+      {
+        "text": "illustration",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/illustration-animation"
+      },
+      {
+        "text": "industrial design",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/industrial-design"
+      },
+      {
+        "text": "Interior Design",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/interior-design"
+      },
+      {
+        "text": "Landscape Architecture",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/landscape-architecture"
+      },
+      {
+        "text": "Urban Design & Planning",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/urban-design-planning"
+      },
+      {
+        "text": "web & interaction design",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/web-interaction-design"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/remote"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Mount Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Mount-Wellington-Auckland"
+      },
+      {
+        "text": "Hamilton East",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Hamilton-East-Waikato"
+      },
+      {
+        "text": "East Tamaki",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-East-Tamaki-Auckland"
+      },
+      {
+        "text": "Lower Hutt",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Lower-Hutt-Wellington"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-All-Auckland"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-All-Canterbury"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-All-Waikato"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-All-Wellington"
+      },
+      {
+        "text": "Albany",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Albany-Auckland"
+      },
+      {
+        "text": "Rosedale",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Rosedale-Auckland"
+      },
+      {
+        "text": "Newmarket",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Newmarket-Auckland"
+      },
+      {
+        "text": "Wellington Central",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Wellington-CBD-Wellington"
+      },
+      {
+        "text": "Te Atatu Peninsula",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Te-Atatu-Peninsula-Auckland"
+      },
+      {
+        "text": "Browns Bay",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Browns-Bay-Auckland"
+      },
+      {
+        "text": "Takanini",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Takanini-Auckland"
+      },
+      {
+        "text": "Christchurch",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Christchurch-Canterbury"
+      },
+      {
+        "text": "Tauranga Central",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-Tauranga-Central-Bay-of-Plenty"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-design-architecture/in-All-Bay-of-Plenty"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Education & Training",
+      "href": "https://www.seek.co.nz/jobs-in-education-training"
+    },
+    "subcategories": [
+      {
+        "text": "Childcare & Outside School Hours Care",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/childcare-outside-school-hours-care"
+      },
+      {
+        "text": "Library Services & Information Management",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/library-services-information-management"
+      },
+      {
+        "text": "Management - Schools",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/management-schools"
+      },
+      {
+        "text": "Management - Universities",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/management-universities"
+      },
+      {
+        "text": "Management - Vocational",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/management-vocational"
+      },
+      {
+        "text": "Research & Fellowships",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/research-fellowships"
+      },
+      {
+        "text": "Student Services",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/student-services"
+      },
+      {
+        "text": "Teaching - Early Childhood",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/teaching-early-childhood"
+      },
+      {
+        "text": "Teaching - Primary",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/teaching-primary"
+      },
+      {
+        "text": "Teaching - Secondary",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/teaching-secondary"
+      },
+      {
+        "text": "Teaching - Tertiary",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/teaching-tertiary"
+      },
+      {
+        "text": "Teaching - Vocational",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/teaching-vocational"
+      },
+      {
+        "text": "Teaching Aides & Special Needs",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/teaching-aides-special-needs"
+      },
+      {
+        "text": "tutoring",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/tutoring"
+      },
+      {
+        "text": "Workplace Training & Assessment",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/workplace-training-assessment"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/remote"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Wellington Central",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Wellington-CBD-Wellington"
+      },
+      {
+        "text": "Otahuhu",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Otahuhu-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Albany",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Albany-Auckland"
+      },
+      {
+        "text": "Frankton",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Frankton-Waikato"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-All-Auckland"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-All-Wellington"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-All-Canterbury"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-All-Waikato"
+      },
+      {
+        "text": "Hamilton East",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Hamilton-East-Waikato"
+      },
+      {
+        "text": "Mount Roskill",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Mount-Roskill-Auckland"
+      },
+      {
+        "text": "Freemans Bay",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Freemans-Bay-Auckland"
+      },
+      {
+        "text": "Mount Eden",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Mount-Eden-Auckland"
+      },
+      {
+        "text": "Glendowie",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Glendowie-Auckland"
+      },
+      {
+        "text": "Browns Bay",
+        "href": "https://www.seek.co.nz/jobs-in-education-training/in-Browns-Bay-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Engineering",
+      "href": "https://www.seek.co.nz/jobs-in-engineering"
+    },
+    "subcategories": [
+      {
+        "text": "aerospace",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/aerospace-engineering"
+      },
+      {
+        "text": "Automotive Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/automotive-engineering"
+      },
+      {
+        "text": "Building Services Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/building-services-engineering"
+      },
+      {
+        "text": "Chemical Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/chemical-engineering"
+      },
+      {
+        "text": "Civil/Structural Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/civil-structural-engineering"
+      },
+      {
+        "text": "Electrical/Electronic Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/electrical-electronic-engineering"
+      },
+      {
+        "text": "Engineering Drafting",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/engineering-drafting"
+      },
+      {
+        "text": "Environmental Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/environmental-engineering"
+      },
+      {
+        "text": "Field Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/field-engineering"
+      },
+      {
+        "text": "Industrial Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/industrial-engineering"
+      },
+      {
+        "text": "Maintenance",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/maintenance"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/management"
+      },
+      {
+        "text": "Materials Handling Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/materials-handling-engineering"
+      },
+      {
+        "text": "Mechanical Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/mechanical-engineering"
+      },
+      {
+        "text": "Process Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/process-engineering"
+      },
+      {
+        "text": "Project Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/project-engineering"
+      },
+      {
+        "text": "Project Management",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/project-management"
+      },
+      {
+        "text": "Supervisors",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/supervisors"
+      },
+      {
+        "text": "Systems Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/systems-engineering"
+      },
+      {
+        "text": "Water & Waste Engineering",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/water-waste-engineering"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/remote"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Penrose-Auckland"
+      },
+      {
+        "text": "East Tamaki",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-East-Tamaki-Auckland"
+      },
+      {
+        "text": "Porirua",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Porirua-Wellington"
+      },
+      {
+        "text": "Mangere Bridge",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Mangere-Bridge-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-All-Auckland"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-All-Wellington"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-All-Canterbury"
+      },
+      {
+        "text": "Avondale",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Avondale-Auckland"
+      },
+      {
+        "text": "Mount Maunganui",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Mount-Maunganui-Bay-of-Plenty"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "Ellerslie",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Ellerslie-Auckland"
+      },
+      {
+        "text": "Mount Eden",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Mount-Eden-Auckland"
+      },
+      {
+        "text": "Onehunga",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Onehunga-Auckland"
+      },
+      {
+        "text": "Upper Riccarton",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Upper-Riccarton-Canterbury"
+      },
+      {
+        "text": "Manukau",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Manukau-Auckland"
+      },
+      {
+        "text": "Nelson Central",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Nelson-Central-Tasman"
+      },
+      {
+        "text": "Tasman",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-All-Tasman"
+      },
+      {
+        "text": "Glenfield",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Glenfield-Auckland"
+      },
+      {
+        "text": "Wiri",
+        "href": "https://www.seek.co.nz/jobs-in-engineering/in-Wiri-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Farming, Animals & Conservation",
+      "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation"
+    },
+    "subcategories": [
+      {
+        "text": "Agronomy & Farm Services",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/agronomy-farm-services"
+      },
+      {
+        "text": "Conservation, Parks & Wildlife",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/conservation-parks-wildlife"
+      },
+      {
+        "text": "Farm Labour",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/farm-labour"
+      },
+      {
+        "text": "Farm Management",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/farm-management"
+      },
+      {
+        "text": "fishing",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/fishing-aquaculture"
+      },
+      {
+        "text": "Horticulture",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/horticulture"
+      },
+      {
+        "text": "Veterinary Services & Animal Welfare",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/veterinary-services-animal-welfare"
+      },
+      {
+        "text": "viticulture",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/winery-viticulture"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/remote"
+      },
+      {
+        "text": "Ponsonby",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Ponsonby-Auckland"
+      },
+      {
+        "text": "Lincoln",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Lincoln-Canterbury"
+      },
+      {
+        "text": "Welcome Bay",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Welcome-Bay-Bay-of-Plenty"
+      },
+      {
+        "text": "Tauranga Central",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Tauranga-Central-Bay-of-Plenty"
+      },
+      {
+        "text": "Marton",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Marton-Manawatu"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-All-Auckland"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-All-Canterbury"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "Manawatu",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-All-Manawatu"
+      },
+      {
+        "text": "Saint Albans",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Saint-Albans-Canterbury"
+      },
+      {
+        "text": "Glenbrook",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Glenbrook-Auckland"
+      },
+      {
+        "text": "Mokai",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Mokai-Waikato"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-All-Waikato"
+      },
+      {
+        "text": "Harewood",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Harewood-Canterbury"
+      },
+      {
+        "text": "Silverdale",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Silverdale-Auckland"
+      },
+      {
+        "text": "Hunua",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Hunua-Auckland"
+      },
+      {
+        "text": "Albany",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Albany-Auckland"
+      },
+      {
+        "text": "Clarks Beach",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Clarks-Beach-Auckland"
+      },
+      {
+        "text": "Swannanoa",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Swannanoa-Canterbury"
+      },
+      {
+        "text": "Riversdale",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Riversdale-Southland"
+      },
+      {
+        "text": "Southland",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-All-Southland"
+      },
+      {
+        "text": "Henderson Valley",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Henderson-Valley-Auckland"
+      },
+      {
+        "text": "Rakaia",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Rakaia-Canterbury"
+      },
+      {
+        "text": "Warkworth",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Warkworth-Auckland"
+      },
+      {
+        "text": "Palmerston North Central",
+        "href": "https://www.seek.co.nz/jobs-in-farming-animals-conservation/in-Palmerston-North-Central-Manawatu"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Government & Defence",
+      "href": "https://www.seek.co.nz/jobs-in-government-defence"
+    },
+    "subcategories": [
+      {
+        "text": "air force",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/air-force"
+      },
+      {
+        "text": "army",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/army"
+      },
+      {
+        "text": "Emergency Services",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/emergency-services"
+      },
+      {
+        "text": "Government",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/government"
+      },
+      {
+        "text": "local",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/local-government"
+      },
+      {
+        "text": "navy",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/navy"
+      },
+      {
+        "text": "Police & Corrections",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/police-corrections"
+      },
+      {
+        "text": "Policy, Planning & Regulation",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/policy-planning-regulation"
+      },
+      {
+        "text": "regional council",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/regional-council"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/remote"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Auckland Airport",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-Auckland-Airport-Auckland"
+      },
+      {
+        "text": "Manukau",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-Manukau-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-All-Auckland"
+      },
+      {
+        "text": "Wiri",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-Wiri-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-All-Canterbury"
+      },
+      {
+        "text": "Wellington Central",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-Wellington-CBD-Wellington"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-All-Wellington"
+      },
+      {
+        "text": "Otahuhu",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-Otahuhu-Auckland"
+      },
+      {
+        "text": "New Plymouth Central",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-New-Plymouth-Central-Taranaki"
+      },
+      {
+        "text": "Taranaki",
+        "href": "https://www.seek.co.nz/jobs-in-government-defence/in-All-Taranaki"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Healthcare & Medical",
+      "href": "https://www.seek.co.nz/jobs-in-healthcare-medical"
+    },
+    "subcategories": [
+      {
+        "text": "Ambulance/Paramedics",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/ambulance-paramedics"
+      },
+      {
+        "text": "Chiropractic & Osteopathic",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/chiropractic-osteopathic"
+      },
+      {
+        "text": "Clinical/Medical Research",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/clinical-medical-research"
+      },
+      {
+        "text": "dental",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/dental"
+      },
+      {
+        "text": "Dieticians",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/dieticians"
+      },
+      {
+        "text": "Environmental Services",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/environmental-services"
+      },
+      {
+        "text": "General Practitioners",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/general-practitioners"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/management"
+      },
+      {
+        "text": "Medical Administration",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/medical-administration"
+      },
+      {
+        "text": "Medical Imaging",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/medical-imaging"
+      },
+      {
+        "text": "Medical Specialists",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/medical-specialists"
+      },
+      {
+        "text": "Natural Therapies & Alternative Medicine",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/natural-therapies-alternative-medicine"
+      },
+      {
+        "text": "Nursing - A&E, Critical Care & ICU",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/nursing-a-e-critical-care-icu"
+      },
+      {
+        "text": "Nursing - Aged Care",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/nursing-aged-care"
+      },
+      {
+        "text": "Nursing - Community, Maternal & Child Health",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/nursing-community-maternal-child-health"
+      },
+      {
+        "text": "Nursing - Educators & Facilitators",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/nursing-educators-facilitators"
+      },
+      {
+        "text": "Nursing - General Medical & Surgical",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/nursing-general-medical-surgical"
+      },
+      {
+        "text": "Nursing - High Acuity",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/nursing-high-acuity"
+      },
+      {
+        "text": "Nursing - Management",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/nursing-management"
+      },
+      {
+        "text": "Nursing - Midwifery, Neo-Natal, SCN & NICU",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/nursing-midwifery-neo-natal-scn-nicu"
+      },
+      {
+        "text": "Nursing - Paediatric & PICU",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/nursing-paediatric-picu"
+      },
+      {
+        "text": "Nursing - Psych, Forensic & Correctional Health",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/nursing-psych-forensic-correctional-health"
+      },
+      {
+        "text": "Nursing - Theatre & Recovery",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/nursing-theatre-recovery"
+      },
+      {
+        "text": "Optical",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/optical"
+      },
+      {
+        "text": "Pathology",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/pathology"
+      },
+      {
+        "text": "Pharmaceuticals & Medical Devices",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/pharmaceuticals-medical-devices"
+      },
+      {
+        "text": "pharmacy",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/pharmacy"
+      },
+      {
+        "text": "Physiotherapy, OT & Rehabilitation",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/physiotherapy-ot-rehabilitation"
+      },
+      {
+        "text": "Psychology, Counselling & Social Work",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/psychology-counselling-social-work"
+      },
+      {
+        "text": "Residents & Registrars",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/residents-registrars"
+      },
+      {
+        "text": "sales",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/sales"
+      },
+      {
+        "text": "Speech Therapy",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/speech-therapy"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/remote"
+      },
+      {
+        "text": "Manurewa",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Manurewa-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Papatoetoe",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Papatoetoe-Auckland"
+      },
+      {
+        "text": "Massey",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Massey-Auckland"
+      },
+      {
+        "text": "Remuera",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Remuera-Auckland"
+      },
+      {
+        "text": "Herne Bay",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Herne-Bay-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-All-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-All-Canterbury"
+      },
+      {
+        "text": "Hamilton Central",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Hamilton-Central-Waikato"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-All-Waikato"
+      },
+      {
+        "text": "Greenlane",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Greenlane-Auckland"
+      },
+      {
+        "text": "Merivale",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Merivale-Canterbury"
+      },
+      {
+        "text": "Northcote",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Northcote-Auckland"
+      },
+      {
+        "text": "Milford",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Milford-Auckland"
+      },
+      {
+        "text": "Palmerston North Central",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Palmerston-North-Central-Manawatu"
+      },
+      {
+        "text": "Manawatu",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-All-Manawatu"
+      },
+      {
+        "text": "Panmure",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Panmure-Auckland"
+      },
+      {
+        "text": "Rolleston",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Rolleston-Canterbury"
+      },
+      {
+        "text": "Silverdale",
+        "href": "https://www.seek.co.nz/jobs-in-healthcare-medical/in-Silverdale-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Hospitality & Tourism",
+      "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism"
+    },
+    "subcategories": [
+      {
+        "text": "Airlines",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/airlines"
+      },
+      {
+        "text": "Bar & Beverage Staff",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/bar-beverage-staff"
+      },
+      {
+        "text": "Chefs/Cooks",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/chefs-cooks"
+      },
+      {
+        "text": "Front Office & Guest Services",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/front-office-guest-services"
+      },
+      {
+        "text": "Gaming",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/gaming"
+      },
+      {
+        "text": "Housekeeping",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/housekeeping"
+      },
+      {
+        "text": "Kitchen & Sandwich Hands",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/kitchen-sandwich-hands"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/management"
+      },
+      {
+        "text": "Reservations",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/reservations"
+      },
+      {
+        "text": "tour guide",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/tour-guides"
+      },
+      {
+        "text": "travel agent",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/travel-agents-consultants"
+      },
+      {
+        "text": "Waiting Staff",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/waiting-staff"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/remote"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Queenstown",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Queenstown-Otago"
+      },
+      {
+        "text": "Te Rapa",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Te-Rapa-Waikato"
+      },
+      {
+        "text": "Three Kings",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Three-Kings-Auckland"
+      },
+      {
+        "text": "Pakuranga",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Pakuranga-Auckland"
+      },
+      {
+        "text": "Parnell",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Parnell-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-All-Auckland"
+      },
+      {
+        "text": "Otago",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-All-Otago"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-All-Waikato"
+      },
+      {
+        "text": "New Lynn",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-New-Lynn-Auckland"
+      },
+      {
+        "text": "Auckland Airport",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Auckland-Airport-Auckland"
+      },
+      {
+        "text": "Te Aro",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Te-Aro-Wellington"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-All-Wellington"
+      },
+      {
+        "text": "Eden Terrace",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Eden-Terrace-Auckland"
+      },
+      {
+        "text": "Mount Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Mount-Wellington-Auckland"
+      },
+      {
+        "text": "Hamilton Central",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Hamilton-Central-Waikato"
+      },
+      {
+        "text": "Avondale",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Avondale-Auckland"
+      },
+      {
+        "text": "Mount Albert",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Mount-Albert-Auckland"
+      },
+      {
+        "text": "Wellington Central",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Wellington-CBD-Wellington"
+      },
+      {
+        "text": "Tamaki",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Tamaki-Auckland"
+      },
+      {
+        "text": "Lower Hutt",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Lower-Hutt-Wellington"
+      },
+      {
+        "text": "Palmerston North",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Palmerston-North-Manawatu"
+      },
+      {
+        "text": "Manawatu",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-All-Manawatu"
+      },
+      {
+        "text": "Papakura",
+        "href": "https://www.seek.co.nz/jobs-in-hospitality-tourism/in-Papakura-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Human Resources & Recruitment",
+      "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment"
+    },
+    "subcategories": [
+      {
+        "text": "Consulting & Generalist HR",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/consulting-generalist-hr"
+      },
+      {
+        "text": "industrial & employee relations",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/industrial-employee-relations"
+      },
+      {
+        "text": "Management - Agency",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/management-agency"
+      },
+      {
+        "text": "Management - Internal",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/management-internal"
+      },
+      {
+        "text": "OH&S",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/occupational-health-safety"
+      },
+      {
+        "text": "organisational development",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/organisational-development"
+      },
+      {
+        "text": "Recruitment - Agency",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/recruitment-agency"
+      },
+      {
+        "text": "internal recruitment",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/recruitment-internal"
+      },
+      {
+        "text": "Remuneration & Benefits",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/remuneration-benefits"
+      },
+      {
+        "text": "training & development",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/training-development"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/remote"
+      },
+      {
+        "text": "Ellerslie",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-Ellerslie-Auckland"
+      },
+      {
+        "text": "Mairangi Bay",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-Mairangi-Bay-Auckland"
+      },
+      {
+        "text": "Hamilton East",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-Hamilton-East-Waikato"
+      },
+      {
+        "text": "Mount Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-Mount-Wellington-Auckland"
+      },
+      {
+        "text": "Grey Lynn",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-Grey-Lynn-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-All-Auckland"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-All-Waikato"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Rosedale",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-Rosedale-Auckland"
+      },
+      {
+        "text": "Hobsonville",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-Hobsonville-Auckland"
+      },
+      {
+        "text": "Thorndon",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-Thorndon-Wellington"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-All-Wellington"
+      },
+      {
+        "text": "East Tamaki",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-East-Tamaki-Auckland"
+      },
+      {
+        "text": "Christchurch",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-Christchurch-Canterbury"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-human-resources-recruitment/in-All-Canterbury"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Information & Communication Technology",
+      "href": "https://www.seek.co.nz/jobs-in-information-communication-technology"
+    },
+    "subcategories": [
+      {
+        "text": "Architects",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/architects"
+      },
+      {
+        "text": "Business/Systems Analysts",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/business-systems-analysts"
+      },
+      {
+        "text": "computer operators",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/computer-operators"
+      },
+      {
+        "text": "Consultants",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/consultants"
+      },
+      {
+        "text": "Database Development & Administration",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/database-development-administration"
+      },
+      {
+        "text": "development",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/developers-programmers"
+      },
+      {
+        "text": "Engineering - Hardware",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/engineering-hardware"
+      },
+      {
+        "text": "Engineering - Network",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/engineering-network"
+      },
+      {
+        "text": "Engineering - Software",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/engineering-software"
+      },
+      {
+        "text": "Help Desk & IT Support",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/help-desk-it-support"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/management"
+      },
+      {
+        "text": "Networks & Systems Administration",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/networks-systems-administration"
+      },
+      {
+        "text": "Product Management & Development",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/product-management-development"
+      },
+      {
+        "text": "Programme & Project Management",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/programme-project-management"
+      },
+      {
+        "text": "sales",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/sales-pre-post"
+      },
+      {
+        "text": "security",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/security"
+      },
+      {
+        "text": "Team Leaders",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/team-leaders"
+      },
+      {
+        "text": "Technical Writing",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/technical-writing"
+      },
+      {
+        "text": "Telecommunications",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/telecommunications"
+      },
+      {
+        "text": "Testing & Quality Assurance",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/testing-quality-assurance"
+      },
+      {
+        "text": "Web Development & Production",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/web-development-production"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/remote"
+      },
+      {
+        "text": "Hamilton Lake",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-Hamilton-Lake-Waikato"
+      },
+      {
+        "text": "Queenstown",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-Queenstown-Otago"
+      },
+      {
+        "text": "Mount Eden",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-Mount-Eden-Auckland"
+      },
+      {
+        "text": "Epsom",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-Epsom-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-All-Auckland"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-All-Waikato"
+      },
+      {
+        "text": "Otago",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-All-Otago"
+      },
+      {
+        "text": "Newmarket",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-Newmarket-Auckland"
+      },
+      {
+        "text": "Parnell",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-Parnell-Auckland"
+      },
+      {
+        "text": "Grafton",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-Grafton-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-All-Canterbury"
+      },
+      {
+        "text": "Papakura",
+        "href": "https://www.seek.co.nz/jobs-in-information-communication-technology/in-Papakura-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Insurance & Superannuation",
+      "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation"
+    },
+    "subcategories": [
+      {
+        "text": "Actuarial",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/actuarial"
+      },
+      {
+        "text": "Assessment",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/assessment"
+      },
+      {
+        "text": "Brokerage",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/brokerage"
+      },
+      {
+        "text": "Claims",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/claims"
+      },
+      {
+        "text": "Fund Administration",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/fund-administration"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/management"
+      },
+      {
+        "text": "Risk Consulting",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/risk-consulting"
+      },
+      {
+        "text": "Superannuation",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/superannuation"
+      },
+      {
+        "text": "Underwriting",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/underwriting"
+      },
+      {
+        "text": "workers' compensation",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/workers-compensation"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/remote"
+      },
+      {
+        "text": "Hawera",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Hawera-Taranaki"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Christchurch",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Christchurch-Canterbury"
+      },
+      {
+        "text": "Hamilton Central",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Hamilton-Central-Waikato"
+      },
+      {
+        "text": "New Plymouth",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-New-Plymouth-Taranaki"
+      },
+      {
+        "text": "Hamilton",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Hamilton-Waikato"
+      },
+      {
+        "text": "Taranaki",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-All-Taranaki"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-All-Auckland"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-All-Canterbury"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-All-Waikato"
+      },
+      {
+        "text": "Rodney & North Shore",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Rodney-&-North-Shore-Auckland"
+      },
+      {
+        "text": "Palmerston North",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Palmerston-North-Manawatu"
+      },
+      {
+        "text": "Manawatu",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-All-Manawatu"
+      },
+      {
+        "text": "Tauranga",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Tauranga-Bay-of-Plenty"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "Takapuna",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Takapuna-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Invercargill",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Invercargill-Southland"
+      },
+      {
+        "text": "Southland",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-All-Southland"
+      },
+      {
+        "text": "Whanganui Central",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Whanganui-Central-Manawatu"
+      },
+      {
+        "text": "Masterton",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Masterton-Wellington"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-All-Wellington"
+      },
+      {
+        "text": "Dunedin",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-Dunedin-Otago"
+      },
+      {
+        "text": "Otago",
+        "href": "https://www.seek.co.nz/jobs-in-insurance-superannuation/in-All-Otago"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Legal",
+      "href": "https://www.seek.co.nz/jobs-in-legal"
+    },
+    "subcategories": [
+      {
+        "text": "Banking & Finance Law",
+        "href": "https://www.seek.co.nz/jobs-in-legal/banking-finance-law"
+      },
+      {
+        "text": "Construction Law",
+        "href": "https://www.seek.co.nz/jobs-in-legal/construction-law"
+      },
+      {
+        "text": "corporate",
+        "href": "https://www.seek.co.nz/jobs-in-legal/corporate-commercial-law"
+      },
+      {
+        "text": "Criminal & Civil Law",
+        "href": "https://www.seek.co.nz/jobs-in-legal/criminal-civil-law"
+      },
+      {
+        "text": "Environment & Planning Law",
+        "href": "https://www.seek.co.nz/jobs-in-legal/environment-planning-law"
+      },
+      {
+        "text": "Family Law",
+        "href": "https://www.seek.co.nz/jobs-in-legal/family-law"
+      },
+      {
+        "text": "Generalists - In-house",
+        "href": "https://www.seek.co.nz/jobs-in-legal/generalists-in-house"
+      },
+      {
+        "text": "Generalists - Law Firm",
+        "href": "https://www.seek.co.nz/jobs-in-legal/generalists-law-firm"
+      },
+      {
+        "text": "Industrial Relations & Employment Law",
+        "href": "https://www.seek.co.nz/jobs-in-legal/industrial-relations-employment-law"
+      },
+      {
+        "text": "Insurance & Superannuation Law",
+        "href": "https://www.seek.co.nz/jobs-in-legal/insurance-superannuation-law"
+      },
+      {
+        "text": "IP",
+        "href": "https://www.seek.co.nz/jobs-in-legal/intellectual-property-law"
+      },
+      {
+        "text": "Law Clerks & Paralegals",
+        "href": "https://www.seek.co.nz/jobs-in-legal/law-clerks-paralegals"
+      },
+      {
+        "text": "Legal Practice Management",
+        "href": "https://www.seek.co.nz/jobs-in-legal/legal-practice-management"
+      },
+      {
+        "text": "Legal Secretaries",
+        "href": "https://www.seek.co.nz/jobs-in-legal/legal-secretaries"
+      },
+      {
+        "text": "Litigation & Dispute Resolution",
+        "href": "https://www.seek.co.nz/jobs-in-legal/litigation-dispute-resolution"
+      },
+      {
+        "text": "personal injury",
+        "href": "https://www.seek.co.nz/jobs-in-legal/personal-injury-law"
+      },
+      {
+        "text": "Property Law",
+        "href": "https://www.seek.co.nz/jobs-in-legal/property-law"
+      },
+      {
+        "text": "tax",
+        "href": "https://www.seek.co.nz/jobs-in-legal/tax-law"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-legal/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-legal/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-legal/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-legal/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-legal/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-legal/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-legal/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-legal/remote"
+      },
+      {
+        "text": "Manukau",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-Manukau-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "New Plymouth Central",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-New-Plymouth-Central-Taranaki"
+      },
+      {
+        "text": "Hastings Central",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-Hastings-Central-Hawkes-Bay"
+      },
+      {
+        "text": "Birkenhead",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-Birkenhead-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-All-Auckland"
+      },
+      {
+        "text": "Taranaki",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-All-Taranaki"
+      },
+      {
+        "text": "Hawkes Bay",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-All-Hawkes-Bay"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-All-Canterbury"
+      },
+      {
+        "text": "Wellington Central",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-Wellington-CBD-Wellington"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-All-Wellington"
+      },
+      {
+        "text": "Papatoetoe",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-Papatoetoe-Auckland"
+      },
+      {
+        "text": "Royal Oak",
+        "href": "https://www.seek.co.nz/jobs-in-legal/in-Royal-Oak-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Manufacturing, Transport & Logistics",
+      "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics"
+    },
+    "subcategories": [
+      {
+        "text": "Analysis & Reporting",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/analysis-reporting"
+      },
+      {
+        "text": "assembly work",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/assembly-process-work"
+      },
+      {
+        "text": "aviation services",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/aviation-services"
+      },
+      {
+        "text": "Couriers, Drivers & Postal Services",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/couriers-drivers-postal-services"
+      },
+      {
+        "text": "Fleet Management",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/fleet-management"
+      },
+      {
+        "text": "Freight/Cargo Forwarding",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/freight-cargo-forwarding"
+      },
+      {
+        "text": "Import/Export & Customs",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/import-export-customs"
+      },
+      {
+        "text": "Machine Operators",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/machine-operators"
+      },
+      {
+        "text": "management",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/management"
+      },
+      {
+        "text": "Pattern Makers & Garment Technicians",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/pattern-makers-garment-technicians"
+      },
+      {
+        "text": "Pickers & Packers",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/pickers-packers"
+      },
+      {
+        "text": "Production, Planning & Scheduling",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/production-planning-scheduling"
+      },
+      {
+        "text": "Public Transport & Taxi Services",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/public-transport-taxi-services"
+      },
+      {
+        "text": "Purchasing, Procurement & Inventory",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/purchasing-procurement-inventory"
+      },
+      {
+        "text": "Quality Assurance & Control",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/quality-assurance-control"
+      },
+      {
+        "text": "Rail & Maritime Transport",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/rail-maritime-transport"
+      },
+      {
+        "text": "Road Transport",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/road-transport"
+      },
+      {
+        "text": "Team Leaders/Supervisors",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/team-leaders-supervisors"
+      },
+      {
+        "text": "Warehousing, Storage & Distribution",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/warehousing-storage-distribution"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/remote"
+      },
+      {
+        "text": "East Tamaki",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-East-Tamaki-Auckland"
+      },
+      {
+        "text": "Tauriko",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Tauriko-Bay-of-Plenty"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Penrose-Auckland"
+      },
+      {
+        "text": "Mount Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Mount-Wellington-Auckland"
+      },
+      {
+        "text": "Avondale",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Avondale-Auckland"
+      },
+      {
+        "text": "Hornby",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Hornby-Canterbury"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-All-Auckland"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-All-Canterbury"
+      },
+      {
+        "text": "Te Rapa Park",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Te-Rapa-Park-Waikato"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-All-Waikato"
+      },
+      {
+        "text": "Auckland Airport",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Auckland-Airport-Auckland"
+      },
+      {
+        "text": "Westgate",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Westgate-Auckland"
+      },
+      {
+        "text": "Hobsonville",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Hobsonville-Auckland"
+      },
+      {
+        "text": "Onehunga",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Onehunga-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Manurewa",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Manurewa-Auckland"
+      },
+      {
+        "text": "Kelston",
+        "href": "https://www.seek.co.nz/jobs-in-manufacturing-transport-logistics/in-Kelston-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Marketing & Communications",
+      "href": "https://www.seek.co.nz/jobs-in-marketing-communications"
+    },
+    "subcategories": [
+      {
+        "text": "Brand Management",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/brand-management"
+      },
+      {
+        "text": "Digital & Search Marketing",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/digital-search-marketing"
+      },
+      {
+        "text": "direct marketing",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/direct-marketing-crm"
+      },
+      {
+        "text": "event management",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/event-management"
+      },
+      {
+        "text": "Internal Communications",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/internal-communications"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/management"
+      },
+      {
+        "text": "Market Research & Analysis",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/market-research-analysis"
+      },
+      {
+        "text": "Marketing Assistants/Coordinators",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/marketing-assistants-coordinators"
+      },
+      {
+        "text": "Marketing Communications",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/marketing-communications"
+      },
+      {
+        "text": "Product Management & Development",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/product-management-development"
+      },
+      {
+        "text": "public relations & corporate affairs",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/public-relations-corporate-affairs"
+      },
+      {
+        "text": "Trade Marketing",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/trade-marketing"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/remote"
+      },
+      {
+        "text": "Ponsonby",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Ponsonby-Auckland"
+      },
+      {
+        "text": "Whakatu",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Whakatu-Hawkes-Bay"
+      },
+      {
+        "text": "Epsom",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Epsom-Auckland"
+      },
+      {
+        "text": "Eden Terrace",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Eden-Terrace-Auckland"
+      },
+      {
+        "text": "New Windsor",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-New-Windsor-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-All-Auckland"
+      },
+      {
+        "text": "Hawkes Bay",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-All-Hawkes-Bay"
+      },
+      {
+        "text": "Drury",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Drury-Auckland"
+      },
+      {
+        "text": "Newmarket",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Newmarket-Auckland"
+      },
+      {
+        "text": "Rosedale",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Rosedale-Auckland"
+      },
+      {
+        "text": "Grey Lynn",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Grey-Lynn-Auckland"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Penrose-Auckland"
+      },
+      {
+        "text": "Glendowie",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Glendowie-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-marketing-communications/in-All-Canterbury"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Mining, Resources & Energy",
+      "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy"
+    },
+    "subcategories": [
+      {
+        "text": "Analysis & Reporting",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/analysis-reporting"
+      },
+      {
+        "text": "health, safety & environment",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/health-safety-environment"
+      },
+      {
+        "text": "management",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/management"
+      },
+      {
+        "text": "Mining - Drill & Blast",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/mining-drill-blast"
+      },
+      {
+        "text": "Mining - Engineering & Maintenance",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/mining-engineering-maintenance"
+      },
+      {
+        "text": "Mining - Exploration & Geoscience",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/mining-exploration-geoscience"
+      },
+      {
+        "text": "Mining - Operations",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/mining-operations"
+      },
+      {
+        "text": "Mining - Processing",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/mining-processing"
+      },
+      {
+        "text": "Natural Resources & Water",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/natural-resources-water"
+      },
+      {
+        "text": "oil & gas drilling",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/oil-gas-drilling"
+      },
+      {
+        "text": "Oil & Gas - Engineering & Maintenance",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/oil-gas-engineering-maintenance"
+      },
+      {
+        "text": "Oil & Gas - Exploration & Geoscience",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/oil-gas-exploration-geoscience"
+      },
+      {
+        "text": "Oil & Gas - Operations",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/oil-gas-operations"
+      },
+      {
+        "text": "Oil & Gas - Production & Refinement",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/oil-gas-production-refinement"
+      },
+      {
+        "text": "Power Generation & Distribution",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/power-generation-distribution"
+      },
+      {
+        "text": "Surveying",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/surveying"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/remote"
+      },
+      {
+        "text": "Kawerau",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Kawerau-Bay-of-Plenty"
+      },
+      {
+        "text": "Taupo Central",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Taupo-Central-Waikato"
+      },
+      {
+        "text": "Macraes Flat",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Macraes-Flat-Otago"
+      },
+      {
+        "text": "Rotowaro",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Rotowaro-Waikato"
+      },
+      {
+        "text": "Westport",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Westport-West-Coast"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-All-Waikato"
+      },
+      {
+        "text": "Otago",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-All-Otago"
+      },
+      {
+        "text": "West Coast",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-All-West-Coast"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-All-Auckland"
+      },
+      {
+        "text": "Warkworth",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Warkworth-Auckland"
+      },
+      {
+        "text": "New Plymouth Central",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-New-Plymouth-Central-Taranaki"
+      },
+      {
+        "text": "Taranaki",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-All-Taranaki"
+      },
+      {
+        "text": "Taupo",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Taupo-Waikato"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Penrose-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-All-Canterbury"
+      },
+      {
+        "text": "Mount Maunganui",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Mount-Maunganui-Bay-of-Plenty"
+      },
+      {
+        "text": "Te Awamutu",
+        "href": "https://www.seek.co.nz/jobs-in-mining-resources-energy/in-Te-Awamutu-Waikato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Real Estate & Property",
+      "href": "https://www.seek.co.nz/jobs-in-real-estate-property"
+    },
+    "subcategories": [
+      {
+        "text": "Administration",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/administration"
+      },
+      {
+        "text": "Analysts",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/analysts"
+      },
+      {
+        "text": "Body Corporate & Facilities Management",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/body-corporate-facilities-management"
+      },
+      {
+        "text": "Commercial Sales, Leasing & Property Mgmt",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/commercial-sales-leasing-property-mgmt"
+      },
+      {
+        "text": "Residential Leasing & Property Management",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/residential-leasing-property-management"
+      },
+      {
+        "text": "Residential Sales",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/residential-sales"
+      },
+      {
+        "text": "Retail & Property Development",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/retail-property-development"
+      },
+      {
+        "text": "valuation",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/valuation"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/remote"
+      },
+      {
+        "text": "Orakei",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Orakei-Auckland"
+      },
+      {
+        "text": "Christchurch",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Christchurch-Canterbury"
+      },
+      {
+        "text": "Howick",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Howick-Auckland"
+      },
+      {
+        "text": "Mount Eden",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Mount-Eden-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Hamilton Central",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Hamilton-Central-Waikato"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-All-Auckland"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-All-Canterbury"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-All-Waikato"
+      },
+      {
+        "text": "Mount Maunganui",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Mount-Maunganui-Bay-of-Plenty"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "Mount Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Mount-Wellington-Auckland"
+      },
+      {
+        "text": "Dunedin Central",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Dunedin-Central-Otago"
+      },
+      {
+        "text": "Otago",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-All-Otago"
+      },
+      {
+        "text": "Karaka",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Karaka-Auckland"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Penrose-Auckland"
+      },
+      {
+        "text": "Wellington Central",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Wellington-CBD-Wellington"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-All-Wellington"
+      },
+      {
+        "text": "Manukau",
+        "href": "https://www.seek.co.nz/jobs-in-real-estate-property/in-Manukau-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Retail & Consumer Products",
+      "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products"
+    },
+    "subcategories": [
+      {
+        "text": "Buying",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/buying"
+      },
+      {
+        "text": "area management",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/management-area-multi-site"
+      },
+      {
+        "text": "Management - Department/Assistant",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/management-department-assistant"
+      },
+      {
+        "text": "store manager",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/management-store"
+      },
+      {
+        "text": "merchandising",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/merchandisers"
+      },
+      {
+        "text": "Planning",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/planning"
+      },
+      {
+        "text": "Retail Assistants",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/retail-assistants"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/remote"
+      },
+      {
+        "text": "Newmarket",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Newmarket-Auckland"
+      },
+      {
+        "text": "Tauranga",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Tauranga-Bay-of-Plenty"
+      },
+      {
+        "text": "Ponsonby",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Ponsonby-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Henderson",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Henderson-Auckland"
+      },
+      {
+        "text": "Westgate",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Westgate-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-All-Auckland"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "Papakura",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Papakura-Auckland"
+      },
+      {
+        "text": "Botany Downs",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Botany-Downs-Auckland"
+      },
+      {
+        "text": "Onehunga",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Onehunga-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-All-Canterbury"
+      },
+      {
+        "text": "Te Rapa",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Te-Rapa-Waikato"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-All-Waikato"
+      },
+      {
+        "text": "Auckland Airport",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Auckland-Airport-Auckland"
+      },
+      {
+        "text": "Albany",
+        "href": "https://www.seek.co.nz/jobs-in-retail-consumer-products/in-Albany-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Sales",
+      "href": "https://www.seek.co.nz/jobs-in-sales"
+    },
+    "subcategories": [
+      {
+        "text": "Account & Relationship Management",
+        "href": "https://www.seek.co.nz/jobs-in-sales/account-relationship-management"
+      },
+      {
+        "text": "analysis & reporting",
+        "href": "https://www.seek.co.nz/jobs-in-sales/analysis-reporting"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-sales/management"
+      },
+      {
+        "text": "New Business Development",
+        "href": "https://www.seek.co.nz/jobs-in-sales/new-business-development"
+      },
+      {
+        "text": "Sales Coordinators",
+        "href": "https://www.seek.co.nz/jobs-in-sales/sales-coordinators"
+      },
+      {
+        "text": "Sales Representatives/Consultants",
+        "href": "https://www.seek.co.nz/jobs-in-sales/sales-representatives-consultants"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-sales/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-sales/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-sales/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-sales/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-sales/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-sales/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-sales/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-sales/remote"
+      },
+      {
+        "text": "Mangere",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Mangere-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Grafton",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Grafton-Auckland"
+      },
+      {
+        "text": "Pukekohe",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Pukekohe-Auckland"
+      },
+      {
+        "text": "Manukau",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Manukau-Auckland"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Penrose-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-All-Auckland"
+      },
+      {
+        "text": "Albany",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Albany-Auckland"
+      },
+      {
+        "text": "Whangarei Central",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Whangarei-Central-Northland"
+      },
+      {
+        "text": "Northland",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-All-Northland"
+      },
+      {
+        "text": "Papakura",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Papakura-Auckland"
+      },
+      {
+        "text": "Hamilton Central",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Hamilton-Central-Waikato"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-All-Waikato"
+      },
+      {
+        "text": "Mount Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Mount-Wellington-Auckland"
+      },
+      {
+        "text": "Otahuhu",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-Otahuhu-Auckland"
+      },
+      {
+        "text": "East Tamaki",
+        "href": "https://www.seek.co.nz/jobs-in-sales/in-East-Tamaki-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Science & Technology",
+      "href": "https://www.seek.co.nz/jobs-in-science-technology"
+    },
+    "subcategories": [
+      {
+        "text": "biomedical sciences",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/biological-biomedical-sciences"
+      },
+      {
+        "text": "Biotechnology & Genetics",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/biotechnology-genetics"
+      },
+      {
+        "text": "Chemistry & Physics",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/chemistry-physics"
+      },
+      {
+        "text": "Environmental, Earth & Geosciences",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/environmental-earth-geosciences"
+      },
+      {
+        "text": "Food Technology & Safety",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/food-technology-safety"
+      },
+      {
+        "text": "Laboratory & Technical Services",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/laboratory-technical-services"
+      },
+      {
+        "text": "Materials Sciences",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/materials-sciences"
+      },
+      {
+        "text": "Mathematics, Statistics & Information Sciences",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/mathematics-statistics-information-sciences"
+      },
+      {
+        "text": "Modelling & Simulation",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/modelling-simulation"
+      },
+      {
+        "text": "Quality Assurance & Control",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/quality-assurance-control"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/remote"
+      },
+      {
+        "text": "Dunsandel",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Dunsandel-Canterbury"
+      },
+      {
+        "text": "Hamilton Lake",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Hamilton-Lake-Waikato"
+      },
+      {
+        "text": "Wellington Central",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Wellington-CBD-Wellington"
+      },
+      {
+        "text": "Hamilton",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Hamilton-Waikato"
+      },
+      {
+        "text": "New Lynn",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-New-Lynn-Auckland"
+      },
+      {
+        "text": "Hamilton Central",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Hamilton-Central-Waikato"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-All-Canterbury"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-All-Waikato"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-All-Wellington"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-All-Auckland"
+      },
+      {
+        "text": "Auckland Airport",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Auckland-Airport-Auckland"
+      },
+      {
+        "text": "East Tamaki",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-East-Tamaki-Auckland"
+      },
+      {
+        "text": "Mount Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Mount-Wellington-Auckland"
+      },
+      {
+        "text": "Mangere",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Mangere-Auckland"
+      },
+      {
+        "text": "Waimauku",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Waimauku-Auckland"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Hastings Central",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Hastings-Central-Hawkes-Bay"
+      },
+      {
+        "text": "Hawkes Bay",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-All-Hawkes-Bay"
+      },
+      {
+        "text": "Papatoetoe",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Papatoetoe-Auckland"
+      },
+      {
+        "text": "Seaview",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Seaview-Wellington"
+      },
+      {
+        "text": "Rest of Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-science-technology/in-Rest-of-Waikato-Waikato"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Self Employment",
+      "href": "https://www.seek.co.nz/jobs-in-self-employment"
+    },
+    "subcategories": [
+      {
+        "text": "Self Employment",
+        "href": "https://www.seek.co.nz/jobs-in-self-employment/self-employment"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-self-employment/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-self-employment/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-self-employment/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-self-employment/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-self-employment/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-self-employment/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-self-employment/remote"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Sport & Recreation",
+      "href": "https://www.seek.co.nz/jobs-in-sport-recreation"
+    },
+    "subcategories": [
+      {
+        "text": "Coaching & Instruction",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/coaching-instruction"
+      },
+      {
+        "text": "Fitness & Personal Training",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/fitness-personal-training"
+      },
+      {
+        "text": "Management",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/management"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/remote"
+      },
+      {
+        "text": "Auckland CBD",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-Auckland-CBD-Auckland"
+      },
+      {
+        "text": "Tauranga Central",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-Tauranga-Central-Bay-of-Plenty"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-Penrose-Auckland"
+      },
+      {
+        "text": "Epsom",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-Epsom-Auckland"
+      },
+      {
+        "text": "Grey Lynn",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-Grey-Lynn-Auckland"
+      },
+      {
+        "text": "Albany",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-Albany-Auckland"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-All-Auckland"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-All-Bay-of-Plenty"
+      },
+      {
+        "text": "Papamoa Beach",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-Papamoa-Beach-Bay-of-Plenty"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-All-Canterbury"
+      },
+      {
+        "text": "Mount Eden",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-Mount-Eden-Auckland"
+      },
+      {
+        "text": "Stonefields",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-Stonefields-Auckland"
+      },
+      {
+        "text": "Papatoetoe",
+        "href": "https://www.seek.co.nz/jobs-in-sport-recreation/in-Papatoetoe-Auckland"
+      }
+    ]
+  },
+  {
+    "category": {
+      "text": "Trades & Services",
+      "href": "https://www.seek.co.nz/jobs-in-trades-services"
+    },
+    "subcategories": [
+      {
+        "text": "Air Conditioning & Refrigeration",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/air-conditioning-refrigeration"
+      },
+      {
+        "text": "Automotive Trades",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/automotive-trades"
+      },
+      {
+        "text": "bakers & pastry chefs",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/bakers-pastry-chefs"
+      },
+      {
+        "text": "Building Trades",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/building-trades"
+      },
+      {
+        "text": "Butchers",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/butchers"
+      },
+      {
+        "text": "carpentry & cabinet making",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/carpentry-cabinet-making"
+      },
+      {
+        "text": "Cleaning Services",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/cleaning-services"
+      },
+      {
+        "text": "electrical",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/electricians"
+      },
+      {
+        "text": "Fitters, Turners & Machinists",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/fitters-turners-machinists"
+      },
+      {
+        "text": "Floristry",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/floristry"
+      },
+      {
+        "text": "Gardening & Landscaping",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/gardening-landscaping"
+      },
+      {
+        "text": "hair and beauty service",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/hair-beauty-services"
+      },
+      {
+        "text": "Labourers",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/labourers"
+      },
+      {
+        "text": "locksmiths",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/locksmiths"
+      },
+      {
+        "text": "maintenance & handyperson",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/maintenance-handyperson-services"
+      },
+      {
+        "text": "Nannies & Babysitters",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/nannies-babysitters"
+      },
+      {
+        "text": "Painters & Sign Writers",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/painters-sign-writers"
+      },
+      {
+        "text": "plumbing",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/plumbers"
+      },
+      {
+        "text": "Printing & Publishing Services",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/printing-publishing-services"
+      },
+      {
+        "text": "Security Services",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/security-services"
+      },
+      {
+        "text": "Tailors & Dressmakers",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/tailors-dressmakers"
+      },
+      {
+        "text": "Technicians",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/technicians"
+      },
+      {
+        "text": "welding",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/welders-boilermakers"
+      },
+      {
+        "text": "Other",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/other"
+      },
+      {
+        "text": "Full time",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/full-time"
+      },
+      {
+        "text": "Part time",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/part-time"
+      },
+      {
+        "text": "Contract/Temp",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/contract-temp"
+      },
+      {
+        "text": "Casual/Vacation",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/casual-vacation"
+      },
+      {
+        "text": "On-site",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/on-site"
+      },
+      {
+        "text": "Hybrid",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/hybrid"
+      },
+      {
+        "text": "Remote",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/remote"
+      },
+      {
+        "text": "Wellington Central",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Wellington-CBD-Wellington"
+      },
+      {
+        "text": "Silverdale",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Silverdale-Auckland"
+      },
+      {
+        "text": "Auckland Airport",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Auckland-Airport-Auckland"
+      },
+      {
+        "text": "Taupo Central",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Taupo-Central-Waikato"
+      },
+      {
+        "text": "Hamilton Central",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Hamilton-Central-Waikato"
+      },
+      {
+        "text": "Arrowtown",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Arrowtown-Otago"
+      },
+      {
+        "text": "Wellington",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-All-Wellington"
+      },
+      {
+        "text": "Auckland",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-All-Auckland"
+      },
+      {
+        "text": "Waikato",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-All-Waikato"
+      },
+      {
+        "text": "Otago",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-All-Otago"
+      },
+      {
+        "text": "Onehunga",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Onehunga-Auckland"
+      },
+      {
+        "text": "Henderson",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Henderson-Auckland"
+      },
+      {
+        "text": "Wiri",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Wiri-Auckland"
+      },
+      {
+        "text": "Christchurch Central",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Christchurch-Central-Canterbury"
+      },
+      {
+        "text": "Canterbury",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-All-Canterbury"
+      },
+      {
+        "text": "Penrose",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Penrose-Auckland"
+      },
+      {
+        "text": "Epsom",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Epsom-Auckland"
+      },
+      {
+        "text": "Pukekohe",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Pukekohe-Auckland"
+      },
+      {
+        "text": "Ellerslie",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Ellerslie-Auckland"
+      },
+      {
+        "text": "Rotorua Central",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-Rotorua-Central-Bay-of-Plenty"
+      },
+      {
+        "text": "Bay of Plenty",
+        "href": "https://www.seek.co.nz/jobs-in-trades-services/in-All-Bay-of-Plenty"
+      }
+    ]
+  }
+]

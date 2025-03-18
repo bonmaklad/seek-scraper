@@ -3,3 +3,4 @@ data-csv/*
 data-json/*
 .DS_Store
 .env
+*.csv
