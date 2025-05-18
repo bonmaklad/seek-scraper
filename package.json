@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^8.1.0",
+    "csv-parser": "^3.2.0",
+    "csv-writer": "^1.6.0",
     "dotenv": "^16.4.1",
     "fast-csv": "^5.0.0",
     "jsdom": "^26.0.0",
